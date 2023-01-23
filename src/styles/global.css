@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+   font-family: 'Open Sans', sans-serif;
+}
+
+.hidden {
+   display: none;
+}
+
+/* .mobile,
+.tablet {
+    display: none;
+}
+
+.tablet.desktop {
+    display: flex;
+}
+
+@media (max-width: 1111px) {
+
+  .desktop {
+    display: none;
+  }
+  .tablet,
+  .tablet.desktop {
+        display: flex;
+    }
+}
+@media (max-width: 685px) {
+    .tablet {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+    }
+}
+@media (max-width: 685px) {
+
+    .tablet,
+  .tablet.desktop {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+    }
+
+} */
