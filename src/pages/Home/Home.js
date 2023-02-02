@@ -1,13 +1,17 @@
 import { useTranslation } from "react-i18next";
 import styles from "./Home.module.css";
+import Introduction from "./blocks/Introduction/Introduction";
+import OurGoal from "./blocks/OurGoal/OurGoal";
+import WhyUs from "./blocks/WhyUs/WhyUs";
+import ContactUs from "./blocks/ContactUs/ContactUs";
 const Home = () => {
     const { t, i18n } = useTranslation();
     return (
       <div className={styles.container}>
-        <div className={styles.content}>
-          <h1 className={styles.title}>abalone</h1>
-          <div className={styles.details}>{t("home_description")}</div>
-        </div>
+        <Introduction/>
+        <OurGoal/>
+        <WhyUs/>
+        <ContactUs/>
       </div>
     );
 }

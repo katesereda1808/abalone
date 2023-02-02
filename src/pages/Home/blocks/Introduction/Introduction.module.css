@@ -1,8 +1,8 @@
 .container {
     width: 100%;
-    max-width: 1600px;
     height: 100vh;
-    background-image: url(../../assets/images/laptop.jpg);
+    min-height: 700px;
+    background-image: url(../../../../assets/images/laptop.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -2,11 +2,12 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    max-width: 1600px;
 }
 .header {
     background-color: white;
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     padding: 30px 50px;
     display: flex;
     align-items: center;
@@ -34,7 +35,7 @@ li {
     /* margin-right: 20px; */
 }
 .logo {
-    height: 141px;
+    height: 70px;
 }
 .logo img {
     height: 100%;
