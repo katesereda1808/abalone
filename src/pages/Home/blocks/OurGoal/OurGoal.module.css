@@ -3,9 +3,10 @@
     min-height: 700px;
     width: 100%;
     background-image: url(../../../../assets/images/polygon_background.png);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-size: contain; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,6 +20,7 @@
     flex-direction: column;
     width: 70%;
     max-width: 700px;
+    text-align: center;
 }
 
 .heading {

@@ -48,7 +48,7 @@ const Header = () => {
           <details className={styles.lang}>
             <summary className={styles.lang__chosen}>{lang}</summary>
             <div className={styles.lang__options}>
-              <button onClick={() => handleChangeLng("eng")}>eng</button>
+              <button onClick={() => handleChangeLng("en")}>eng</button>
               <button onClick={() => handleChangeLng("fr")}>fr</button>
             </div>
           </details>

@@ -1,13 +1,31 @@
 {
     "home": "Accueil",
-    "home_description": "expertise comptable, consolidation et commissariat aux comptes",
     "about": "Présentation",
     "services": "Missions et services",
     "partners": "Nos Partenaires",
     "contacts": "Contact",
+    "home_description": "expertise comptable, consolidation et commissariat aux comptes",
     "our_goal": "Notre objectif",
     "our_goal_text": "est de vous accompagner dans vos démarches et dans votre développement, vous proposer une solution complète adaptée à vos objectifs, tout en tenant compte de vos contraintes, et vous mettre si nécessaire en relation avec nos partenaires à même de pouvoir répondre de  façon professionnelle et réactive à tous vos besoins spécifiques.",
-    "why_us_1_heading": "Sécurisez vos comptes et libérez-vous des contraintes administratives",
-    "why_us_1_text": "Votre conseiller prend en charge votre comptabilité et toutes vos déclarations fiscales : vous êtes assuré du respect des règles et du respect des délais. Vous travaillez l'esprit tranquille."
+
+    "why_us_1_heading": "Protégez vos comptes et éliminez les obligations administratives",
+    "why_us_1_text": "Laissez votre conseiller gérer votre comptabilité et vos déclarations fiscales. Vous pouvez travailler en toute sérénité avec la garantie que les règles et les délais seront respectés.",
+    "why_us_2_heading": "Bénéficiez de l'expertise et de l'accompagnement d'un spécialiste de votre secteur",
+    "why_us_2_text": "Avec un conseiller disponible, attentif et réactif, formé régulièrement aux évolutions de votre métier, vous avez un véritable atout.",
+    "why_us_3_heading": "Mesurez votre performance",
+    "why_us_3_text": "Utilisez des indicateurs précis pour disposer d'outils de gestion efficaces pour prendre des décisions.",
+
+    "call_to_action":"Gagnez du temps avec notre expertise",
+    "contact_btn_text": "contacter nous",
+    "choose_office": "Сhoisissez un bureau",
+
+
+
+    "director": "Expert-comptable diplomee et commissaire aux comptes inscrite, interviens dans les domaines comptable, juridique, fiscal, et suis spécialisée en consolidation des comples.",
+    "company_story": "Sur le territoire depuis 1998, j'ai d'abord été partenaire de FIDEC NC de 2004 à 2010 avant de rejoindre le groupe en 2011. Associée FIDEC DUCOS de 2014 à 2022, j'ai choisi d'ouvrir des bureaux de proximité, gérés par de petites équipes professionnelles, à l'écoute de nos clients.",
+    "our_motto":"Notre devise",
+    "motto_1":"l'écoute &",
+    "motto_2":"la disponibilité"
+
 
 }

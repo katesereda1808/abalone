@@ -24,18 +24,18 @@ const WhyUs = () => {
               <img src={dialogue} alt="dialogue icon" />
             </div>
             <div className={styles.why_us__text_heading}>
-              {t("why_us_1_heading")}
+              {t("why_us_2_heading")}
             </div>
-            <div className={styles.why_us__text}>{t("why_us_1_text")}</div>
+            <div className={styles.why_us__text}>{t("why_us_2_text")}</div>
           </div>
           <div className={styles.why_us__item}>
             <div className={styles.why_us__icon}>
               <img src={graphic} alt="graphic icon" />
             </div>
             <div className={styles.why_us__text_heading}>
-              {t("why_us_1_heading")}
+              {t("why_us_3_heading")}
             </div>
-            <div className={styles.why_us__text}>{t("why_us_1_text")}</div>
+            <div className={styles.why_us__text}>{t("why_us_3_text")}</div>
           </div>
         </div>
       </div>
