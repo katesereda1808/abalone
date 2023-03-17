@@ -1,14 +1,19 @@
 import { useTranslation } from "react-i18next";
-import styles from "./Force.module.css";
+import styles from "./ContactForm.module.css";
+import Form from "../../../../UI/molecules/Form/Form";
+import { OFFICES_EMAILS } from "../../../../../constants";
 const ContactForm = () => {
   const { t, i18n } = useTranslation();
+
   return (
     <div className={styles.container}>
-      <div className={styles.background_filter}>
-        <div className={styles.content}>
-          <h2 className={styles.heading}>{t("our_force")}</h2>
-          <p className={styles.text}>{t("why_team")}</p>
-        </div>
+      <div className={`background_filter ${styles.form_container}`}>
+        <Form
+          btnText={t("contact_btn_text")}
+          btnColor={"#00867F"}
+          options={OFFICES_EMAILS}
+          selectPlaceholder={t("choose_office")}
+        />
       </div>
     </div>
   );

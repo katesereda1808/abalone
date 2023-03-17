@@ -27,7 +27,6 @@ const Dropdown = ({ placeHolder, options, onChange }) => {
         };
     });
     const handleInputClick = () => {
-        // e.stopPropagation();
         setShowMenu(!showMenu);
     };
   const getDisplay = () => {

@@ -4,26 +4,21 @@ import { useState } from "react";
 import ContactBtn from "../../atoms/ContactBtn/ContactBtn";
 import Dropdown from "../Dropdown/Dropdown";
 
-const Form = ({ text, color }) => {
-  const [ office, setOffice ] = useState(null)
-  const options = [
-    { value: "boulouparis@abalone.nc", label: "Boulouparis" },
-    { value: "ducos@abalone.nc", label: "Ducos" },
-    { value: "lafoa@abalone.nc", label: "La Foa" },
-    { value: "katesereda22@gmail.com", label: "test mail" },
-  ];
+const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
+  const [office, setOffice] = useState(null);
   const TestButton = (e) => {
     e.preventDefault();
     console.log(office);
-  }
+  };
+
   return (
     <form
       className={styles.form}
-      action={`https://formsubmit.co/${office?office.value:''}`}
+      action={`https://formsubmit.co/${office ? office.value : ""}`}
       method="POST"
     >
       <Dropdown
-        placeHolder="Select..."
+        placeHolder={selectPlaceholder}
         options={options}
         onChange={(option) => setOffice(option)}
       />
@@ -42,10 +37,14 @@ const Form = ({ text, color }) => {
       <input
         type="hidden"
         name="_autoresponse"
-        value="Thanks for choosing our company! We got your request"
+        value="Thank you for choosing our company! We got your request"
       ></input>
-      <ContactBtn text={text} color={color} onClick={TestButton} />
-      <button onClick={(e)=>TestButton(e)}>click</button>
+      <ContactBtn
+        text={btnText}
+        color={btnColor}
+        options={options}
+        onClick={TestButton}
+      />
     </form>
   );
 };
