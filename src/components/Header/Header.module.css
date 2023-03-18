@@ -4,6 +4,9 @@
     justify-content: center;
     max-width: 1600px;
 }
+.desktop {
+    display: flex;
+}
 .header {
     background-color: white;
     color: black;
@@ -55,4 +58,20 @@ li {
     right: 0;
     display: flex;
     flex-direction: column;
+}
+@media (max-width: 972px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+    }
+    .burger {
+        background-image: url(../../assets/icons/burger.svg);
+        height: 44px;
+        width: 52px;
+        background-size: cover;
+        cursor: pointer;
+        margin: 0 0 0 auto ;
+    }
 }

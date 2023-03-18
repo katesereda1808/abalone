@@ -29,3 +29,18 @@
     margin-bottom: 57px;
     font-family: 'Montserrat', sans-serif;
 }
+@media (max-width: 580px) {
+    .container {
+        height: auto;
+        max-height: none;
+        padding: 30px 20px;
+    }
+    .content {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .heading {
+        font-size: 40px;
+        margin-bottom: 47px;
+    }
+}

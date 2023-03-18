@@ -41,7 +41,8 @@
 }
 
 .why_us__icon {
-    height: 170px;
+    max-height: 170px;
+    height: 16vw;
     margin-bottom: 30px;
 }
 
@@ -54,4 +55,22 @@
     font-weight: 700;
     color: #00867F;
     margin-bottom: 30px;
+}
+/* 1040px */
+/* .why_us__text_heading {
+        font-size: 22px;
+    }
+    .why_us__item {
+        font-size: 18px;
+    } */
+@media (max-width: 1014px) {
+    .container {
+        height: auto;
+        padding: 60px 40px;
+    }
+    .why_us__items {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
 }

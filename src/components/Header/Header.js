@@ -29,7 +29,7 @@ const Header = () => {
             <div className={styles.logo}>
               <img src={logo} alt="abalone logo" />
             </div>
-            <nav>
+            <nav className={styles.desktop}>
               <ul className={styles.navigation}>
                 <li>
                   <Link to="/">{t("home")}</Link>
@@ -48,7 +48,8 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
-            <details className={styles.lang}>
+            <div className={`${styles.burger} ${styles.mobile}`}></div>
+            <details className={`${styles.lang} ${styles.desktop}`}>
               <summary className={styles.lang__chosen}>{lang}</summary>
               <div className={styles.lang__options}>
                 <button onClick={() => handleChangeLng("en")}>en</button>

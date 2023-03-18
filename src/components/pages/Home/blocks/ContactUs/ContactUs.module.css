@@ -131,3 +131,70 @@
     color: #00867F;
     margin-bottom: 30px;
 }
+@media (max-width: 1014px) {
+    .background_filter {
+        
+    }
+    .container {
+        height: auto;
+        min-height: auto;
+        
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 40px;
+    }
+    .circle {
+        position: relative;
+        right: auto;
+        left: auto;
+        top: auto;
+        margin-top: 60px;
+    }
+    .contacts {
+        padding-top: 0;
+        width: 100%;
+    }
+    .offices__contacts {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .contacts__title {
+        /* font-size: 40px;
+        font-weight: 700; */
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .office {
+        /* flex-direction: column; */
+    }
+}
+@media (max-width: 716px) {
+    .contacts {
+        /* font-size: 20px; */
+    }
+    .circle {
+        /* min-height: 400px;
+        min-width: 400px; */
+    }
+    .circle__title {
+        /* font-size: 30px; */
+    }
+    .offices__contacts {
+        width: 80%;
+    }
+}
+@media (max-width: 580px) {
+     .contacts {
+        font-size: 20px;
+    }
+    .circle {
+        min-height: 400px;
+        min-width: 400px;
+    }
+    .circle__title {
+        font-size: 30px;
+    }
+}

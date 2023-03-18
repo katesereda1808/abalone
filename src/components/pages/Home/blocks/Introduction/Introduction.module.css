@@ -37,6 +37,44 @@
 @media (max-width: 1400px) {
     .content{
         clip-path: polygon(47% 0, 100% 0, 100% 100%, 0% 100%);
-
     }
+}
+@media (max-width: 833px) {
+    .container {
+        min-height: 500px;
+        max-height: 1000px;
+    }
+    .content{
+        clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title {
+        font-size: 70px;
+        margin-top: 0;
+    }
+    .details {
+    /* margin-top: 8%;
+    width: 50%; */
+    font-size: 40px;
+    /* font-weight: 600; */
+    /* font-family: 'Open Sans', sans-serif;
+    text-align: end; */
+    line-height: 145%;
+    }
+    .title,
+    .details {
+        text-align: center;
+        width: 100%;
+    }
+}
+@media (max-width: 533px) {
+    .title {
+        font-size: 60px;
+    }
+    .details {
+        font-size: 40px;
+    }
+    
 }

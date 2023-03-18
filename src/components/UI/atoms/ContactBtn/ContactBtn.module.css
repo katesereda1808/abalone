@@ -6,3 +6,8 @@
     background-color: #00867F;
     color: #ffffff;
 }
+@media (max-width: 580px) {
+    .btn {
+        font-size: 20px;
+    }
+}
