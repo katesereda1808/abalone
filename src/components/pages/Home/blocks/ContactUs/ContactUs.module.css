@@ -3,7 +3,6 @@
     max-width: 1600px;
     height: 100vh;
     min-height: 700px;
-    
     background-image: url(../../../../../assets/images/office_1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -196,5 +195,27 @@
     }
     .circle__title {
         font-size: 30px;
+    }
+}
+@media (max-width: 400px) {
+    .content {
+        padding: 60px 20px;
+    }
+    .contacts__title {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .office__name {
+        font-weight: 800;
+    }
+    .office {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .offices__contacts {
+        gap: 30px;
+    }
+    .circle__content {
+        margin-bottom: -40px;
     }
 }

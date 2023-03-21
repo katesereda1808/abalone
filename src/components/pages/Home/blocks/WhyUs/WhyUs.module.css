@@ -10,7 +10,7 @@
     background-size: cover; */
     display: flex;
     flex-direction: column;
-     justify-content: center;
+    justify-content: center;
     
 }
 .content {
@@ -42,6 +42,7 @@
 
 .why_us__icon {
     max-height: 170px;
+    min-height: 120px;
     height: 16vw;
     margin-bottom: 30px;
 }

@@ -7,11 +7,11 @@ import ContactUs from "./blocks/ContactUs/ContactUs";
 const Home = () => {
     const { t, i18n } = useTranslation();
     return (
-      <div className={styles.container}>
-        <Introduction/>
-        <OurGoal/>
-        <WhyUs/>
-        <ContactUs/>
+      <div className={`${styles.container} container`}>
+        <Introduction />
+        <OurGoal />
+        <WhyUs />
+        <ContactUs />
       </div>
     );
 }
