@@ -23,3 +23,18 @@
 .form__textarea {
     height: 80px;
 }
+@media (max-width: 800px) {
+    .form {
+        padding: 50px 30px;
+        border-radius: 26px;
+    }
+}
+@media (max-width: 400px) {
+    .form {
+        padding: 50px 20px;
+        border-radius: 26px;
+    }
+    .form__input {
+        font-size: 18px;
+    }
+}

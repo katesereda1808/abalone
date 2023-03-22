@@ -27,6 +27,9 @@
   border-radius: 7px;
   overflow: auto;
   max-height: 150px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 15px;
 }
 .dropdown_item {
   width: 100%;
@@ -34,9 +37,24 @@
   cursor: pointer;
 }
 .dropdown_item:hover {
-  background-color: #ccc;
+  background-color: rgba(8, 200, 190, 0.49);
 }
 .dropdown_item.selected {
-    background-color: #0d6efd;
+    background-color: #00867F;
     color: #fff;
+}
+@media (max-width: 800px) {
+    .form {
+        padding: 50px 30px;
+        border-radius: 26px;
+    }
+}
+@media (max-width: 400px) {
+    .form {
+        padding: 50px 20px;
+        border-radius: 26px;
+    }
+    .dropdown_input {
+        font-size: 18px;
+    }
 }

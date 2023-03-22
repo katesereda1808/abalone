@@ -41,7 +41,6 @@ const Dropdown = ({ placeHolder, options, onChange }) => {
     onChange(option)
   };
 
-  // check if the item is selected to highlight it on the list
   const isSelected = (option) => {
     if (!selectedValue) {
         return false;

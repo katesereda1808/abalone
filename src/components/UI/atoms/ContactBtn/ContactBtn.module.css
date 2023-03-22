@@ -5,6 +5,7 @@
     border-radius: 20px;
     background-color: #00867F;
     color: #ffffff;
+    text-transform: uppercase;
 }
 @media (max-width: 580px) {
     .btn {

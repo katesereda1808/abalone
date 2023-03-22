@@ -20,3 +20,26 @@
     font-weight: 700;
     color: #ffffff;
 }
+@media (max-width: 900px) {
+    .text_box {
+        padding: 50px;
+    }
+    .text {
+        font-size: 30px;
+        line-height: 45px;
+        font-weight: 600;
+    }
+}
+@media (max-width: 400px) {
+    .container {
+        padding: 60px 20px;
+        min-height: auto;
+    }
+    .text_box {
+        padding: 20px;
+    }
+    .text {
+        font-size: 25px;
+        line-height: 40px;
+    }
+}

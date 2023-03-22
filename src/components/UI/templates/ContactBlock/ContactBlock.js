@@ -1,12 +1,15 @@
 import { useTranslation } from "react-i18next";
-import styles from "./ContactForm.module.css";
-import Form from "../../../../UI/molecules/Form/Form";
-import { OFFICES_EMAILS } from "../../../../../constants";
-const ContactForm = () => {
+import styles from "./ContactBlock.module.css";
+import Form from "../../molecules/Form/Form";
+import { OFFICES_EMAILS } from "../../../../constants/index.js"
+const ContactBlock = ({ backgroundImg }) => {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className={styles.container}>
+    <div
+      className={styles.container}
+      style={{backgroundImage: `url(${ backgroundImg })`}}
+    >
       <div className={`background_filter ${styles.form_container}`}>
         <Form
           btnText={t("contact_btn_text")}
@@ -18,4 +21,4 @@ const ContactForm = () => {
     </div>
   );
 };
-export default ContactForm;
+export default ContactBlock;

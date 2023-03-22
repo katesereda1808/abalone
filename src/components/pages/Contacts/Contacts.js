@@ -2,6 +2,9 @@ import { useTranslation } from "react-i18next";
 import ContactForm from "./blocks/ContactForm/ContactForm";
 import Offices from "./blocks/Offices/Offices";
 import styles from "./Contacts.module.css";
+import ContactBlock from "../../UI/templates/ContactBlock/ContactBlock";
+import contacts_form_background from "../../../assets/images/contacts_contact_form.png";
+
 const Contacts = () => {
     const { t, i18n } = useTranslation();
     // const options = [
@@ -16,7 +19,8 @@ const Contacts = () => {
       //     {t("contacts")}
       // </h1>
       <div className={`${styles.container} container`}>
-        <ContactForm />
+        {/* <ContactForm /> */}
+        <ContactBlock backgroundImg={contacts_form_background} />
         <Offices />
       </div>
     );

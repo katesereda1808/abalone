@@ -3,7 +3,8 @@ import styles from "./Services.module.css";
 import ServicesIntroduction from "./blocks/ServicesIntroduction/ServicesIntroduction";
 import ServicesList from "./blocks/ServicesList/ServicesList";
 import ExtraService from "./blocks/ExtraService/ExtraService";
-import ContactForm from "./blocks/ContactForm/ContactForm";
+import ContactBlock from "../../UI/templates/ContactBlock/ContactBlock";
+import contacts_form_background from "../../../assets/images/services_contact.png";
 const Services = () => {
     const { t, i18n } = useTranslation();
     return (
@@ -11,7 +12,7 @@ const Services = () => {
         {/* <ServicesIntroduction/> */}
         <ServicesList />
         <ExtraService />
-        <ContactForm />
+        <ContactBlock backgroundImg={contacts_form_background} />
       </div>
     );
 }

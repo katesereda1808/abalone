@@ -21,6 +21,7 @@
 }
 .list_item__text ul {
     list-style: disc;
+    margin-left: 20px;
 }
 .list_item__text li {
     margin-bottom: 20px;
@@ -34,5 +35,13 @@
 @media (max-width: 612px) {
     .container {
         grid-template-columns: minmax(180px,1fr);
+    }
+}
+@media (max-width: 400px) {
+    .list_item {
+      padding: 60px 20px;
+    }
+    .list_item__heading {
+        font-size: 30px;
     }
 }
