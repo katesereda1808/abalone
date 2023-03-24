@@ -33,7 +33,7 @@
 @media (max-width: 400px) {
     .container {
         padding: 60px 20px;
-        min-height: auto;
+        min-height: 500px;
     }
     .text_box {
         padding: 20px;

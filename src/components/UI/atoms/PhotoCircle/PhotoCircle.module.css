@@ -1,0 +1,25 @@
+.photo {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.photo img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+@media (max-width: 400px) {
+    .photo {
+        height: 74vw;
+        width: 74vw;
+        min-height: 200px;
+        min-width: 200px;
+    }
+}

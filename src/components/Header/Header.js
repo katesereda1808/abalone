@@ -10,6 +10,7 @@ import {
 import styles from "./Header.module.css";
 import logo from "../../assets/icons/abalone_logo.svg";
 import { useState } from "react";
+import MobileMenu from "../UI/molecules/MobileMenu/MobileMenu";
 // import logoipeg from "../../assets/icons/abalone_logo_2.jpeg";
 
 const Header = () => {
@@ -20,6 +21,7 @@ const Header = () => {
         localStorage.setItem("lng", lng);
     };
     const [lang, changeLang] = useState('fr');
+    const [isOpen, setIsOpen] = useState(false);
     // if (localStorage.getItem("lng")){
     //   changeLang((localStorage.getItem("lng")));
     // }
@@ -40,15 +42,15 @@ const Header = () => {
                 <li>
                   <Link to="/services">{t("services")}</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/partners">{t("partners")}</Link>
-                </li>
+                </li> */}
                 <li>
                   <Link to="/contacts">{t("contacts")}</Link>
                 </li>
               </ul>
             </nav>
-            <div className={`${styles.burger} ${styles.mobile}`}></div>
+            <button className={`${styles.burger} ${styles.mobile}`} onClick={() => setIsOpen(true)}/>
             <details className={`${styles.lang} ${styles.desktop}`}>
               <summary className={styles.lang__chosen}>{lang}</summary>
               <div className={styles.lang__options}>
@@ -62,6 +64,7 @@ const Header = () => {
             <button onClick={() => handleChangeLng("fr")}>Fr</button>
           </div> */}
           </div>
+          {isOpen && <MobileMenu setIsOpen={setIsOpen} />}
         </div>
       );
 }

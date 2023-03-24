@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import ContactForm from "./blocks/ContactForm/ContactForm";
 import Offices from "./blocks/Offices/Offices";
 import styles from "./Contacts.module.css";
 import ContactBlock from "../../UI/templates/ContactBlock/ContactBlock";

@@ -1,3 +1,55 @@
+import StephanieImg from "../assets/images/Stephanie.jpeg";
+import KevinImg from "../assets/images/Kevin.jpeg";
+import KimberleyImg from "../assets/images/Kimberley.jpeg";
+import NellyImg from "../assets/images/Nelly.jpeg";
+import AlizeeImg from "../assets/images/Alizee.jpeg";
+import LeaImg from "../assets/images/Lea.jpeg";
+
+export const COWORKERS_INFO = [
+  {
+    name: "Stephanie",
+    office: "La Foa",
+    imgUrl: StephanieImg,
+    title: "accountant",
+    description: "stephanie_description",
+  },
+  {
+    name: "Kevin",
+    office: "La Foa",
+    imgUrl: KevinImg,
+    title: "assistant_accountant",
+    description: "kevin_description",
+  },
+  {
+    name: "Kimberley",
+    office: "Ducos",
+    imgUrl: KimberleyImg,
+    title: "assistant_accountant",
+    description: "kimberley_description",
+  },
+  {
+    name: "Nelly",
+    office: "Ducos",
+    imgUrl: NellyImg,
+    title: "accountant",
+    description: "nelly_description",
+  },
+  {
+    name: "Alizée",
+    office: "Ducos",
+    imgUrl: AlizeeImg,
+    title: "accountant",
+    description: "alizee_description",
+  },
+  {
+    name: "Lea",
+    office: "Ducos",
+    imgUrl: LeaImg,
+    title: "assistant_accountant",
+    description: "lea_description",
+  },
+];
+
 export const OFFICES = [
   {
     name: "Boulouparis",
@@ -23,5 +75,4 @@ export const OFFICES_EMAILS = [
    { value: "ducos@abalone.nc", label: "Ducos" },
    { value: "lafoa@abalone.nc", label: "La Foa" },
    { value: "paita@abalone.nc", label: "Paita" },
-   { value: "katesereda22@gmail.com", label: "test mail" },
  ];

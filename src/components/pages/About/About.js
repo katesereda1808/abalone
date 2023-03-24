@@ -7,7 +7,7 @@ import Team from "./blocks/Team/Team";
 const About = () => {
     const { t, i18n } = useTranslation();
     return (
-      <div className={styles.container}>
+      <div className={`${styles.container} container`}>
         <CompanyStory />
         <Motto />
         <Force />

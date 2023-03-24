@@ -1,17 +1,21 @@
 
 .container {
-    padding: 200px 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+        
 }
 
 .our_motto {
     font-size: 80px;
     font-weight: 700;
     position: relative;
-    left: -20%;
+    left: -15%;
     margin-bottom: 20px;
 }
 .our_motto_1,
@@ -31,4 +35,41 @@
 }
 .our_motto_2 {
     right: -20%;
+}
+@media (max-width: 810px) {
+    .our_motto {
+        font-size: 60px;
+        margin-bottom: 40px;
+        text-align: center;
+        left: 0;
+    }
+    .our_motto_2 {
+        left: 0;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 0;
+        min-height: 500px;
+        max-height: 700px;
+    }
+    .our_motto {
+        
+    }
+    .our_motto_1,
+    .our_motto_2 {
+        font-size: 40px;
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .our_motto {
+        font-size: 45px;
+        padding: 0 15px;
+    }
+    .our_motto_1,
+    .our_motto_2 {
+        font-size: 35px;
+        padding: 0 15px;
+    }
 }

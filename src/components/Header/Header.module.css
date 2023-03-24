@@ -68,6 +68,7 @@ li {
     }
     .burger {
         background-image: url(../../assets/icons/burger.svg);
+        background-color: transparent;
         height: 44px;
         width: 52px;
         background-size: cover;
