@@ -69,10 +69,23 @@ li {
     .burger {
         background-image: url(../../assets/icons/burger.svg);
         background-color: transparent;
-        height: 44px;
-        width: 52px;
+        height: 8vw;
+        width: 8vw;
+        min-height: 34px;
+        min-width: 34px;
         background-size: cover;
         cursor: pointer;
         margin: 0 0 0 auto ;
+    }
+}
+@media (max-width: 500px) {
+    .logo {
+        height: 10vw;
+        min-height: 40px;
+    }
+}
+@media (max-width: 400px) {
+    .header {
+        padding: 30px 20px;
     }
 }

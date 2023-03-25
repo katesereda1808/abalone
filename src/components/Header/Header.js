@@ -26,7 +26,7 @@ const Header = () => {
     //   changeLang((localStorage.getItem("lng")));
     // }
       return (
-        <div className={styles.header__container}>
+        <div className={`${styles.header__container} container`}>
           <div className={styles.header}>
             <div className={styles.logo}>
               <img src={logo} alt="abalone logo" />
