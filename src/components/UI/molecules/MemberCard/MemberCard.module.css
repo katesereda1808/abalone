@@ -30,11 +30,20 @@
 
 @media (max-width: 500px) {
     .team_member_card {
-        padding: 30px;
+        padding: 50px 30px;
+    }
+    .name {
+        font-size: 30px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .description {
+        font-size: 20px;
     }
 }
 @media (max-width: 400px) {
     .team_member_card {
-        padding: 15px;
+        padding: 30px 15px;
     }
 }
