@@ -15,3 +15,8 @@
     color: #ffffff;
     background-color: #00b3aa;
 }
+@media (max-width: 972px) {
+    .desktop {
+        display: none;
+    }
+}

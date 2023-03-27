@@ -56,7 +56,7 @@ const Header = () => {
               className={`${styles.burger} ${styles.mobile}`}
               onClick={() => setIsOpen(true)}
             />
-            <ChangeLangBtn
+            <ChangeLangBtn className={styles.desktop}
               changeLangFunc={handleChangeLng}
               langState={lang}
               languages={LANGUAGES}
