@@ -1,5 +1,6 @@
 
 import { useTranslation } from "react-i18next";
+import { LANGUAGES } from "../../constants";
 import {
     BrowserRouter,
     Switch,
@@ -11,7 +12,7 @@ import styles from "./Header.module.css";
 import logo from "../../assets/icons/abalone_logo.svg";
 import { useState } from "react";
 import MobileMenu from "../UI/molecules/MobileMenu/MobileMenu";
-// import logoipeg from "../../assets/icons/abalone_logo_2.jpeg";
+import ChangeLangBtn from "../UI/molecules/ChangeLngBtn/ChangeLangBtn";
 
 const Header = () => {
     const { t, i18n } = useTranslation();
@@ -25,6 +26,7 @@ const Header = () => {
     // if (localStorage.getItem("lng")){
     //   changeLang((localStorage.getItem("lng")));
     // }
+    console.log(localStorage.getItem("lng"));
       return (
         <div className={`${styles.header__container} container`}>
           <div className={styles.header}>
@@ -50,21 +52,24 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
-            <button className={`${styles.burger} ${styles.mobile}`} onClick={() => setIsOpen(true)}/>
-            <details className={`${styles.lang} ${styles.desktop}`}>
-              <summary className={styles.lang__chosen}>{lang}</summary>
-              <div className={styles.lang__options}>
-                <button onClick={() => handleChangeLng("en")}>en</button>
-                <button onClick={() => handleChangeLng("fr")}>fr</button>
-              </div>
-            </details>
-
-            {/* <div>
-            <button onClick={() => handleChangeLng("en")}>Eng</button>
-            <button onClick={() => handleChangeLng("fr")}>Fr</button>
-          </div> */}
+            <button
+              className={`${styles.burger} ${styles.mobile}`}
+              onClick={() => setIsOpen(true)}
+            />
+            <ChangeLangBtn
+              changeLangFunc={handleChangeLng}
+              langState={lang}
+              languages={LANGUAGES}
+            />
           </div>
-          {isOpen && <MobileMenu setIsOpen={setIsOpen} />}
+          {isOpen && (
+            <MobileMenu
+              setIsOpen={setIsOpen}
+              changeLangFunc={handleChangeLng}
+              langState={lang}
+              languages={LANGUAGES}
+            />
+          )}
         </div>
       );
 }

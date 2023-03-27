@@ -18,7 +18,7 @@ const ContactUs = () => {
               </div>
               <div className={styles.office}>
                 <div className={styles.office__name}>La Foa</div>
-                <div className={styles.office__phone}>+687 737 389</div>
+                <div className={styles.office__phone}>+687 73 73 89</div>
               </div>
               <div className={styles.office}>
                 <div className={styles.office__name}>Ducos</div>
@@ -30,7 +30,11 @@ const ContactUs = () => {
             <div className={styles.circle__content}>
               <h2 className={styles.circle__title}>{t("call_to_action")}</h2>
               <Link to="/contacts">
-                <ContactBtn text={t("contact_btn_text")} color={"white"} />
+                <ContactBtn
+                  text={t("contact_btn_text")}
+                  btnColor="white"
+                  textColor="#00867F"
+                />
               </Link>
             </div>
           </div>

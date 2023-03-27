@@ -4,6 +4,11 @@
     "services": "Missions and services",
     "partners": "Our partners",
     "contacts": "Contact us",
+
+    "form_name_placeholder": "Name: ",
+    "form_email_placeholder": "Email: ",
+    "form_phone_placeholder": "Phone: ",
+    "form_message_placeholder": "Message: ",
     
     "home_description": "Accounting expertise, consolidation and auditing.",
     "our_goal": "Our goal",
@@ -22,7 +27,7 @@
 
 
     "director": "A certified chartered accountant and a registered auditor, I work in the areas of accounting, law, and taxation and specialize in company consolidation.",
-    "company_story": "Operating on the territory since 1998, I was first a partner at FIDEC NC from 2004 to 2010 before joining the group in 2011. As an associate at FIDEC DUCOS from 2014 to 2022, I have chosen to open local offices, managed by professional small teams, dedicated to listening to our clients.",
+    "company_story": "Isabelle Cecchini is a certified public accountant and statutory auditor of the Abalone company, born in 1970. She obtained her Diploma in Accounting Expertise (DEC) at ESLSCA Paris and has more than 30 years of expertise in the field of accounting, including over 20 years in Nouméa. She has practiced her profession on 3 different continents, including mainland France, Nouméa, and Djibouti. Former managing partner of another accounting firm in Ducos for nearly 10 years, Isabelle is a diligent professional who listens to her clients. She brings valuable expertise to Abalone by ensuring the quality of accounting and financial management.",
     "our_motto":"Our motto:",
     "motto_1":"Listening & ",
     "motto_2":"Availability",
@@ -61,15 +66,18 @@
     "mergers": "Mergers",
     "training_and_coaching_services": "We can also offer training and coaching services in the fields of accounting, consolidation, and taxation.",
 
+    "team_members": "team members",
     "expert_accountant": "expert accountant",
     "accountant": "accountant",
     "assistant_accountant": "assistant accountant",
     "stephanie_description": "We are pleased to introduce Stephanie THEVENIOT, a professional in accounting and training with over 18 years of experience in the field. With a BTS in Accounting and Organizational Management as well as other certifications in financial management and analysis, Stephanie has worked as an accountant and trainer since 2004. She joined our team at Abalone in September 2022 and brings her skills to help our business thrive. Outside of work, Stephanie is passionate about hunting, fishing, gardening, and cooking. She has been living in New Caledonia since 2010.",
     "kevin_description": "We are pleased to introduce Kevin Baraquin, our young recruit as an assistant accountant at Abalone. Kevin began his career as a tobacconist before transitioning to accounting in 2022, starting his first year diploma in Accounting and Management. Since the opening of our company, Kevin has been working under the supervision of Stephanie Theveniot at our La Foa office. Outside of work, Kevin is passionate about science and travel. We are proud to have him on our team and look forward to seeing his professional growth and development.",
     "kimberley_description": "Kimberley Song is our assistant accountant at Abalone since September 2022. Despite her young age, she has already gained solid accounting experience through her professional internships. She completed an internship in a local company before joining our team. She brings to our team her motivation, seriousness, and rigor in work, as well as her good humor and contagious smile. We are delighted to count on her to support our accounting team and contribute to the growth of our company.",
-    "nelly_description": "Meet Nelly Levy, our young and talented accountant, who has been with Abalone since the company's opening. She is curious, optimistic, and has an excellent team spirit. Currently in her second year of BTS in Accounting and Management apprenticeship, she started to discover the world of accounting through a company internship in 2020.",
+    "nelly_description": "Meet Nelly Levy, our young and talented accountant, who has been with Abalone since the company's opening. She is curious, optimistic, and has an excellent team spirit. Currently in her second year of BTS in Accounting and Management apprenticeship, she started to discover the world of accounting through a company internship in 2020. Outside of work, Nelly loves music and sports.",
     "alizee_description": "We are proud to introduce Alizée Laurent, our experienced assistant accountant at Abalone. Graduated with a professional Baccalaureate in Accounting in 2014, Alizée took her first steps in the accounting field during an internship in a company in 2012. Since then, she has worked as an assistant accountant and gained expertise in various accounting tasks. She joined our company since its opening and is a key element of our team. Outside of work, Alizée likes to stay active by practicing various sports, she is also passionate about art and travel. Her curiosity and dedication to her work make her a valuable asset to our company.",
-    "lea_description": "Léa Chantreux is a young recruit passionate about accounting and management. Graduated with a BTS in Accounting and Management in 2022, she joined our team at Abalone since the company's opening. Although she is still gaining experience, Léa is motivated and works hard to learn and contribute to the company. Outside of work, she enjoys swimming and hiking."
+    "lea_description": "Léa Chantreux is a young recruit passionate about accounting and management. Graduated with a BTS in Accounting and Management in 2022, she joined our team at Abalone since the company's opening. Although she is still gaining experience, Léa is motivated and works hard to learn and contribute to the company. Outside of work, she enjoys swimming and hiking.",
+    "nicole_description": "Nicole Le Pen is an accounting professional with over 39 years of experience. She responds to the occasional needs of our clients who require quick responsiveness and total autonomy for a determined period of intervention. Her long experience allows her to handle all situations and find tailored solutions to meet her clients' needs.Nicole is now expanding her skills by completing training to become a legal guardian for the protection of adults, which she will validate in 2023. Outside of work, Nicole enjoys traveling, arts, and literature.",
+    "armand_description": "Armand Cecchini is the technical, organizational, logistics, and facilities maintenance manager at Abalone. He has over 23 years of experience in construction, renovation, and building, and ensures the smooth operation of the company's daily operations. His expertise in organization, logistics, and facilities maintenance ensures that the company's premises are always in excellent working order and meet the needs of the team. Armand is essential in maintaining a strong and efficient infrastructure that allows the company to thrive."
 
 
 

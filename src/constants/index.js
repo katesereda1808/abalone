@@ -5,6 +5,10 @@ import NellyImg from "../assets/images/Nelly.jpeg";
 import AlizeeImg from "../assets/images/Alizee.jpeg";
 import LeaImg from "../assets/images/Lea.jpeg";
 
+export const LANGUAGES = [
+  "en",
+  "fr"
+]
 export const COWORKERS_INFO = [
   {
     name: "Stephanie",
@@ -21,13 +25,6 @@ export const COWORKERS_INFO = [
     description: "kevin_description",
   },
   {
-    name: "Kimberley",
-    office: "Ducos",
-    imgUrl: KimberleyImg,
-    title: "assistant_accountant",
-    description: "kimberley_description",
-  },
-  {
     name: "Nelly",
     office: "Ducos",
     imgUrl: NellyImg,
@@ -42,11 +39,33 @@ export const COWORKERS_INFO = [
     description: "alizee_description",
   },
   {
+    name: "Kimberley",
+    office: "Ducos",
+    imgUrl: KimberleyImg,
+    title: "assistant_accountant",
+    description: "kimberley_description",
+  },
+  {
     name: "Lea",
     office: "Ducos",
     imgUrl: LeaImg,
     title: "assistant_accountant",
     description: "lea_description",
+  },
+];
+
+export const PARTNERS_INFO = [
+  {
+    name: "Nicole",
+    imgUrl: "",
+    title: "",
+    description: "nicole_description",
+  },
+  {
+    name: "Armand",
+    imgUrl: "",
+    title: "",
+    description: "armand_description",
   },
 ];
 
@@ -69,16 +88,16 @@ export const OFFICES = [
     phone: "+687 737 389",
     email: "lafoa@abalone.nc",
   },
-  {
-    name: "Païta",
-    address: "Complexe de la Gare, Lots A11-A12 Route du Mont Mou, 98890 Païta",
-    phone: "",
-    email: "paita@abalone.nc",
-  },
+  // {
+  //   name: "Païta",
+  //   address: "Complexe de la Gare, Lots A11-A12 Route du Mont Mou, 98890 Païta",
+  //   phone: "",
+  //   email: "paita@abalone.nc",
+  // },
 ];
 export const OFFICES_EMAILS = [
    { value: "boulouparis@abalone.nc", label: "Boulouparis" },
    { value: "ducos@abalone.nc", label: "Ducos" },
    { value: "lafoa@abalone.nc", label: "La Foa" },
-   { value: "paita@abalone.nc", label: "Païta" },
+  //  { value: "paita@abalone.nc", label: "Païta" },
  ];

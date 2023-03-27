@@ -13,7 +13,6 @@ const ContactBlock = ({ backgroundImg }) => {
       <div className={`background_filter ${styles.form_container}`}>
         <Form
           btnText={t("contact_btn_text")}
-          btnColor={"#00867F"}
           options={OFFICES_EMAILS}
           selectPlaceholder={t("choose_office")}
         />

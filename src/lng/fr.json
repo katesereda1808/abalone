@@ -4,7 +4,13 @@
     "services": "Missions et services",
     "partners": "Nos Partenaires",
     "contacts": "Contact",
-    "home_description": "expertise comptable, consolidation et commissariat aux comptes",
+
+    "form_name_placeholder": "Nom: ",
+    "form_email_placeholder": "Email: ",
+    "form_phone_placeholder": "Téléphone: ",
+    "form_message_placeholder": "Votre message: ",
+
+    "home_description": "Expertise comptable, consolidation et commissariat aux comptes",
     "our_goal": "Notre objectif",
     "our_goal_text": "est de vous accompagner dans vos démarches et dans votre développement, vous proposer une solution complète adaptée à vos objectifs, tout en tenant compte de vos contraintes, et vous mettre si nécessaire en relation avec nos partenaires à même de pouvoir répondre de  façon professionnelle et réactive à tous vos besoins spécifiques.",
 
@@ -16,13 +22,13 @@
     "why_us_3_text": "Utilisez des indicateurs précis pour disposer d'outils de gestion efficaces pour prendre des décisions.",
 
     "call_to_action":"Gagnez du temps avec notre expertise",
-    "contact_btn_text": "contacter nous",
+    "contact_btn_text": "contactez-nous",
     "choose_office": "Сhoisissez un bureau",
 
 
 
-    "director": "Expert-comptable diplomee et commissaire aux comptes inscrite, interviens dans les domaines comptable, juridique, fiscal, et suis spécialisée en consolidation des comples.",
-    "company_story": "Sur le territoire depuis 1998, j'ai d'abord été partenaire de FIDEC NC de 2004 à 2010 avant de rejoindre le groupe en 2011. Associée FIDEC DUCOS de 2014 à 2022, j'ai choisi d'ouvrir des bureaux de proximité, gérés par de petites équipes professionnelles, à l'écoute de nos clients.",
+    "director": "Expert-comptable diplômée et commissaire aux comptes inscrite, interviens dans les domaines comptable, juridique, fiscal, et est spécialisée en consolidation des comptes.",
+    "company_story": "Isabelle Cecchini est une experte-comptable et commissaire aux comptes de la société Abalone, née en 1970. Elle a obtenu son Diplôme d'Expertise-Comptable (DEC) à l'ESLSCA Paris et compte plus de 30 ans d'expertise dans le domaine de la comptabilité, dont plus de 20 ans à Nouméa. Elle a exercé son métier sur 3 continents différents, notamment en France métropolitaine, à Nouméa et à Djibouti. Ancienne associée gérante d'un autre cabinet comptable sur Ducos pendant près de 10 ans, Isabelle est une professionnelle assidue et à l'écoute de ses clients. Elle apporte une expertise précieuse à la société Abalone, en veillant notamment à la qualité de la gestion comptable et financière.",
     "our_motto":"Notre devise",
     "motto_1":"l'écoute &",
     "motto_2":"la disponibilité",
@@ -60,15 +66,18 @@
     "mergers": "Fusions",
     "training_and_coaching_services": "Nous pouvons également vous proposer des missions de formation et de coaching dans le domaine de la comptabilité, de la consolidation et de la fiscalité.",
 
+    "team_members": "l'equipe",
     "expert_accountant": "expert-comptable",
     "accountant": "comptable",
     "assistant_accountant": "aide comptable",
     "stephanie_description": "Nous avons le plaisir de vous présenter Stephanie THEVENIOT, une professionnelle de la comptabilité et de la formation avec plus de 18 ans d'expérience dans le domaine. Titulaire d'un BTS en Comptabilité et gestion des organisations ainsi que d'autres certifications en gestion et analyse financière, Stephanie a travaillé comme comptable et formatrice depuis 2004. Elle a rejoint notre équipe chez Abalone en septembre 2022 et apporte ses compétences pour aider notre entreprise à prospérer. En dehors du travail, Stephanie est passionnée par la chasse, la pêche, le jardinage et la cuisine. Elle vit en Nouvelle-Calédonie depuis 2010.",
     "kevin_description": "Nous sommes heureux de vous présenter Kevin Baraquin, notre jeune recrue en tant qu'aide-comptable chez Abalone. Kevin a commencé sa carrière en tant que buraliste avant de se lancer dans la comptabilité en 2022, en commençant ainsi son diplôme de première année en Comptabilité et Gestion. Depuis l'ouverture de notre société, Kevin travaille sous la supervision de Stéphanie Theveniot dans nos bureaux de La Foa. En dehors du travail, Kevin est passionné par les sciences et les voyages. Nous sommes fiers de l'avoir dans notre équipe et nous sommes impatients de voir sa croissance et son développement professionnel.",
     "kimberley_description": "Kimberley Song est notre aide comptable chez Abalone depuis septembre 2022. Malgré son jeune âge, elle a déjà acquis une solide expérience en comptabilité grâce à ses stages professionnels. Elle a effectué un stage dans une entreprise locale avant de rejoindre notre équipe. Elle apporte à notre équipe sa motivation, son sérieux et sa rigueur dans le travail, ainsi que sa bonne humeur et son sourire contagieux. Nous sommes ravis de compter sur elle pour soutenir notre équipe comptable et contribuer à la croissance de notre entreprise.",
-    "nelly_description": "Découvrez Nelly Levy, notre jeune et talentueuse comptable, qui a rejoint Abalone depuis l'ouverture de la société. Elle est curieuse, optimiste et a un excellent esprit d'équipe. Actuellement en alternance pour sa 2e année de BTS Comptabilité et Gestion, elle a commencé à découvrir le monde de la comptabilité grâce à un stage en entreprise en 2020.",
+    "nelly_description": "Découvrez Nelly Levy, notre jeune et talentueuse comptable, qui a rejoint Abalone depuis l'ouverture de la société. Elle est curieuse, optimiste et a un excellent esprit d'équipe. Actuellement en alternance pour sa 2e année de BTS Comptabilité et Gestion, elle a commencé à découvrir le monde de la comptabilité grâce à un stage en entreprise en 2020. En dehors du travail, Nelly aime la musique et le sport.",
     "alizee_description": "Nous sommes fiers de vous présenter Alizée Laurent, notre aide comptable expérimentée chez Abalone. Diplômée d'un Baccalauréat professionnel en comptabilité en 2014, Alizée a fait ses premiers pas dans le domaine de la comptabilité lors d'un stage en entreprise en 2012. Depuis lors, elle a travaillé comme aide-comptable et a acquis une expertise dans diverses tâches comptables. Elle a rejoint notre entreprise depuis l'ouverture et est un élément clé de notre équipe. En dehors du travail, Alizée aime rester active en pratiquant divers sports, elle est également passionnée par l'art et les voyages. Sa curiosité et son dévouement pour son travail font d'elle un atout précieux pour notre entreprise.",
-    "lea_description": "Léa Chantreux est une jeune recrue passionnée par la comptabilité et la gestion. Diplômée d'un BTS Comptabilité et Gestion en 2022, elle a rejoint notre équipe chez Abalone depuis l'ouverture de la société. Bien qu'elle soit encore en train d'acquérir de l'expérience, Léa est motivée et travaille dur pour apprendre et contribuer à l'entreprise. En dehors du travail, elle aime nager et faire de la marche."
+    "lea_description": "Léa Chantreux est une jeune recrue passionnée par la comptabilité et la gestion. Diplômée d'un BTS Comptabilité et Gestion en 2022, elle a rejoint notre équipe chez Abalone depuis l'ouverture de la société. Bien qu'elle soit encore en train d'acquérir de l'expérience, Léa est motivée et travaille dur pour apprendre et contribuer à l'entreprise. En dehors du travail, elle aime nager et faire de la marche.",
+    "nicole_description": "Nicole Le Pen est une professionnelle de la comptabilité avec plus de 39 ans d’expérience ; elle répond aux besoins ponctuels de nos clients qui souhaitent une réactivité et une autonomie totale pour une intervention sur une période déterminée. Sa longue expérience lui permet de faire face à toutes les situations et de trouver des solutions adaptées pour répondre aux besoins de ses clients. Nicole complète aujourd’hui sa palette de compétences par une formation de mandataire judiciaire protection des majeurs qu’elle valide en 2023. En dehors du travail, Nicole aime les voyages, les arts et la littérature.",
+    "armand_description": "Armand Cecchini est le responsable technique, organisation, logistique et entretien des locaux chez Abalone. Il a plus de 23 ans d'expérience dans la construction, la rénovation et le bâtiment, et assure le bon fonctionnement des opérations quotidiennes de l'entreprise. Son expertise en matière d'organisation, de logistique et d'entretien des locaux garantit que les locaux de l'entreprise sont toujours en excellent état de fonctionnement et qu'ils répondent aux besoins de l'équipe. Armand est essentiel pour maintenir une infrastructure solide et efficace qui permet à l'entreprise de prospérer."
 
 
 }

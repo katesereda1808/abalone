@@ -20,22 +20,17 @@
     position: relative;
     z-index: 1;
 }
-/* // 00867F */
-
 a {
     color: black;
 }
-
+.navigation li:hover {
+    color: rgba(8, 200, 190, 0.49);
+}
 .navigation {
     list-style: none;
     display: flex;
     padding: 0;
     gap: 20px;
-}
-
-
-li {
-    /* margin-right: 20px; */
 }
 .logo {
     height: 70px;
@@ -43,21 +38,8 @@ li {
 .logo img {
     height: 100%;
 }
-.lang {
-    position: relative;
-    top: 0;
-    right: 0;
-}
-.lang__chosen {
-    /* position: relative;
-    top: 0; */
-}
-.lang__options {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    display: flex;
-    flex-direction: column;
+.mobile {
+        display: none;
 }
 @media (max-width: 972px) {
     .desktop {

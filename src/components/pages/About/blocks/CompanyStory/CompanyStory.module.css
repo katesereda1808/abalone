@@ -74,7 +74,8 @@
     }
 }
 @media (max-width: 500px) {
-    .author {
+    .author,
+    .text {
         min-width: auto;
         padding: 60px 20px;
     }

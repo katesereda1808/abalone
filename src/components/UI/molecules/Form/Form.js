@@ -5,6 +5,7 @@ import ContactBtn from "../../atoms/ContactBtn/ContactBtn";
 import Dropdown from "../Dropdown/Dropdown";
 
 const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
+  const { t, i18n } = useTranslation();
   const [office, setOffice] = useState(null);
   const TestButton = (e) => {
     e.preventDefault();
@@ -22,13 +23,25 @@ const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
         options={options}
         onChange={(option) => setOffice(option)}
       />
-      <input className={styles.form__input} name="name" placeholder="Name:" />
-      <input className={styles.form__input} name="email" placeholder="Email:" />
-      <input className={styles.form__input} name="phone" placeholder="Phone:" />
+      <input
+        className={styles.form__input}
+        name="name"
+        placeholder={t("form_name_placeholder")}
+      />
+      <input
+        className={styles.form__input}
+        name="email"
+        placeholder={t("form_email_placeholder")}
+      />
+      <input
+        className={styles.form__input}
+        name="phone"
+        placeholder={t("form_phone_placeholder")}
+      />
       <textarea
         className={`${styles.form__input} ${styles.form__textarea}`}
         name="message"
-        placeholder="Your message:"
+        placeholder={t("form_message_placeholder")}
       />
 
       {/* // put thank u page */}
@@ -39,12 +52,7 @@ const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
         name="_autoresponse"
         value="Thank you for choosing our company! We got your request"
       ></input>
-      <ContactBtn
-        text={btnText}
-        color={btnColor}
-        options={options}
-        onClick={TestButton}
-      />
+      <ContactBtn text={btnText} options={options} onClick={TestButton} />
     </form>
   );
 };
