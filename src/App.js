@@ -9,6 +9,7 @@ import {
 import { useTranslation } from "react-i18next";
 import './App.css';
 import Header from './components/Header/Header';
+import Footer from "./components/Footer/Footer";
 import Home from './components/pages/Home/Home';
 import About from './components/pages/About/About';
 import Services from './components/pages/Services/Services';
@@ -28,7 +29,7 @@ function App() {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/partners" element={<Partners />} />
       </Routes>
-
+      <Footer />
     </div>
   );
 }

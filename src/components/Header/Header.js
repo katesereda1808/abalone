@@ -1,11 +1,6 @@
-
 import { useTranslation } from "react-i18next";
 import { LANGUAGES } from "../../constants";
 import {
-    BrowserRouter,
-    Switch,
-    Route,
-    Routes,
     Link
 } from "react-router-dom";
 import styles from "./Header.module.css";
@@ -56,11 +51,13 @@ const Header = () => {
               className={`${styles.burger} ${styles.mobile}`}
               onClick={() => setIsOpen(true)}
             />
-            <ChangeLangBtn className={styles.desktop}
-              changeLangFunc={handleChangeLng}
-              langState={lang}
-              languages={LANGUAGES}
-            />
+            <div className={styles.desktop}>
+              <ChangeLangBtn
+                changeLangFunc={handleChangeLng}
+                langState={lang}
+                languages={LANGUAGES}
+              />
+            </div>
           </div>
           {isOpen && (
             <MobileMenu

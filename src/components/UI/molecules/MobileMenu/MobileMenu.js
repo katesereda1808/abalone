@@ -8,7 +8,7 @@ const MobileMenu = ({ setIsOpen, changeLangFunc, langState, languages }) => {
   return (
     <div className={`${styles.container} container`}>
       <header className={styles.menu_header}>
-        <ChangeLangBtn
+        <ChangeLangBtn className={styles.mobile}
           changeLangFunc={changeLangFunc}
           langState={langState}
           languages={languages}
