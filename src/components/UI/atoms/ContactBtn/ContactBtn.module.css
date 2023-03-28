@@ -10,6 +10,14 @@
 .btn:hover {
     background-color: #00b3aa;
 }
+.white_btn {
+    color: #00867F;
+    background-color: #ffffff;;
+}
+.white_btn:hover {
+    color: #00504c;
+    background-color: #ECFCFA;;
+}
 @media (max-width: 580px) {
     .btn {
         font-size: 20px;

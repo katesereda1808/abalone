@@ -25,9 +25,9 @@ const Header = () => {
       return (
         <div className={`${styles.header__container} container`}>
           <div className={styles.header}>
-            <div className={styles.logo}>
+            <Link to="/" className={styles.logo}>
               <img src={logo} alt="abalone logo" />
-            </div>
+            </Link>
             <nav className={styles.desktop}>
               <ul className={styles.navigation}>
                 <li>

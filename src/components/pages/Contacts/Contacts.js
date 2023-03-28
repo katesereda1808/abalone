@@ -6,19 +6,11 @@ import contacts_form_background from "../../../assets/images/contacts_contact_fo
 
 const Contacts = () => {
     const { t, i18n } = useTranslation();
-    // const options = [
-    //   { value: "boulouparis@abalone.nc", label: "Boulouparis" },
-    //   { value: "ducos@abalone.nc", label: "Ducos" },
-    //   { value: "lafoa@abalone.nc", label: "La Foa" },
-    //   { value: "paita@abalone.nc", label: "Paita" },
-    //   { value: "katesereda22@gmail.com", label: "test mail" },
-    // ];
     return (
       // <h1>
       //     {t("contacts")}
       // </h1>
       <div className={`${styles.container} container`}>
-        {/* <ContactForm /> */}
         <ContactBlock backgroundImg={contacts_form_background} />
         <Offices />
       </div>

@@ -5,7 +5,7 @@ import ContactBtn from "../../atoms/ContactBtn/ContactBtn";
 import Dropdown from "../Dropdown/Dropdown";
 
 const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const [office, setOffice] = useState(null);
   const TestButton = (e) => {
     e.preventDefault();

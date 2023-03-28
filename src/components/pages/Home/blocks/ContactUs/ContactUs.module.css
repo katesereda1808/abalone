@@ -9,10 +9,6 @@
     background-size: cover;
     position: relative;
     overflow: hidden;
-    /* display: flex;
-    flex-direction: column;
-     justify-content: center; */
-    
 }
 
 .background_filter {
@@ -22,10 +18,6 @@
 }
 .content {
     padding: 0 40px;
-    /* height: 100%; */
-    /* display: flex;
-    justify-content: center; */
-    /* align-items: center; */
 }
 
 .circle {
@@ -61,14 +53,6 @@
     font-family: 'Montserrat';
 }
 
-/* .contact_btn {
-    font-size: 30px;
-    font-weight: 700;
-    padding: 20px 30px;
-    border-radius: 20px;
-    
-} */
-
 .contacts {
     font-size: 30px;
     font-weight: 600;
@@ -90,14 +74,12 @@
 
 }
 
+
 .office {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-
-
-
 
 .why_us__items {
     width: 100%;

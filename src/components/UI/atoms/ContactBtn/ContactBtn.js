@@ -1,12 +1,9 @@
-import { useTranslation } from "react-i18next";
 import styles from "./ContactBtn.module.css";
-import { useState } from "react";
 
-const ContactBtn = ({ text, btnColor, textColor }) => {
+const ContactBtn = ({ text, btnColor }) => {
   return (
     <button
-      className={styles.btn}
-      style={{ backgroundColor: btnColor, color: textColor }}
+      className={`${styles.btn} ${btnColor === "white_btn" && styles.white_btn}`}
     >
       {text}
     </button>

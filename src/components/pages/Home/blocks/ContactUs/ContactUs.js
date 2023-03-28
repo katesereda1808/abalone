@@ -4,7 +4,7 @@ import ContactBtn from "../../../../UI/atoms/ContactBtn/ContactBtn";
 import { Link } from "react-router-dom";
 
 const ContactUs = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   return (
     <div className={styles.container}>
       <div className={`background_filter`}>
@@ -29,11 +29,10 @@ const ContactUs = () => {
           <div className={styles.circle}>
             <div className={styles.circle__content}>
               <h2 className={styles.circle__title}>{t("call_to_action")}</h2>
-              <Link to="/contacts">
+              <Link className={styles.white_btn_hover} to="/contacts">
                 <ContactBtn
                   text={t("contact_btn_text")}
-                  btnColor="white"
-                  textColor="#00867F"
+                  btnColor="white_btn"
                 />
               </Link>
             </div>

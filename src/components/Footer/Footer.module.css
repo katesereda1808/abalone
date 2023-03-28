@@ -4,10 +4,13 @@
     background-color: #00867F;
     color: #ffffff;
     padding: 30px 40px;
-    
 }
 .content {
    width: 100%;
+}
+.links {
+    display: flex;
+    flex-direction: column;
 }
 .logo {
     height: 54px;
@@ -23,6 +26,11 @@
 .navigation {
     display: flex;
     gap: 30px;
+    width: 100%;
+}
+.navigation li:hover,
+.legal_info:hover {
+    opacity: 0.5;
 }
 .navigation,
 .legal_info {
@@ -32,19 +40,29 @@
 .legal_info {
     text-align: right;
     display: block;
+    width: fit-content;
+    margin: 0 0 0 auto;
 }
 .legal_address {
     margin-top: 100px;
     max-width: 500px;
 }
 @media (max-width: 881px) {
+    .nav,
+    .links {
+        width: 100%;
+    }
     .top {
         flex-direction: column;
         gap: 50px;
         margin-bottom: 40px;
     }
+    .navigation {
+        justify-content: center;
+    }
     .legal_info {
         text-align: center;
+        margin: 0 auto;
     }
 }
 @media (max-width: 550px) {
@@ -58,6 +76,10 @@
     }
     .top {
         gap: 30px;
+        margin-bottom: 20px;
+    }
+    .links {
+        width: fit-content;
     }
     .navigation {
         flex-direction: column;
@@ -65,8 +87,7 @@
     }
     .legal_info {
         text-align: unset;
-        
-        
         width: fit-content;
+        margin: 0;
     }
 }

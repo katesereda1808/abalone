@@ -4,6 +4,13 @@
     right: 0;
     cursor: pointer;
 }
+.lang__chosen {
+    padding: 3px;
+}
+.lang__chosen:hover {
+    color: #ffffff;
+    background-color: #00b3aa;
+}
 .lang__options {
     position: absolute;
     top: 100%;
