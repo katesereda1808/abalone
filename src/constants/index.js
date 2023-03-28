@@ -58,13 +58,13 @@ export const PARTNERS_INFO = [
   {
     name: "Nicole",
     imgUrl: "",
-    title: "",
+    title: "confirmed_accountant",
     description: "nicole_description",
   },
   {
     name: "Armand",
     imgUrl: "",
-    title: "",
+    title: "technical_manager",
     description: "armand_description",
   },
 ];
