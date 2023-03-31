@@ -4,6 +4,8 @@ import KimberleyImg from "../assets/images/Kimberley.jpeg";
 import NellyImg from "../assets/images/Nelly.jpeg";
 import AlizeeImg from "../assets/images/Alizee.jpeg";
 import LeaImg from "../assets/images/Lea.jpeg";
+import ArmandImg from "../assets/images/Armand.jpeg";
+import WomanIcon from "../assets/images/woman_icon.png";
 
 export const LANGUAGES = [
   "en",
@@ -25,6 +27,13 @@ export const COWORKERS_INFO = [
     description: "kevin_description",
   },
   {
+    name: "Kimberley",
+    office: "Ducos",
+    imgUrl: KimberleyImg,
+    title: "assistant_accountant",
+    description: "kimberley_description",
+  },
+  {
     name: "Nelly",
     office: "Ducos",
     imgUrl: NellyImg,
@@ -39,14 +48,7 @@ export const COWORKERS_INFO = [
     description: "alizee_description",
   },
   {
-    name: "Kimberley",
-    office: "Ducos",
-    imgUrl: KimberleyImg,
-    title: "assistant_accountant",
-    description: "kimberley_description",
-  },
-  {
-    name: "Lea",
+    name: "Léa",
     office: "Ducos",
     imgUrl: LeaImg,
     title: "assistant_accountant",
@@ -56,16 +58,16 @@ export const COWORKERS_INFO = [
 
 export const PARTNERS_INFO = [
   {
-    name: "Nicole",
-    imgUrl: "",
-    title: "confirmed_accountant",
-    description: "nicole_description",
-  },
-  {
     name: "Armand",
-    imgUrl: "",
+    imgUrl: ArmandImg,
     title: "technical_manager",
     description: "armand_description",
+  },
+  {
+    name: "Nicole",
+    imgUrl: WomanIcon,
+    title: "confirmed_accountant",
+    description: "nicole_description",
   },
 ];
 
