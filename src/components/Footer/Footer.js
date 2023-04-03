@@ -32,18 +32,17 @@ const Footer = () => {
                 <li>
                   <Link to="/contacts">{t("contacts")}</Link>
                 </li>
+                <li>
+                  <Link to="/contacts">{t("legal_info")}</Link>
+                </li>
               </ul>
             </nav>
           </div>
-
-          <Link to="/contacts" className={styles.legal_info}>
-            {t("legal_info")}
-          </Link>
         </div>
         <div className={styles.legal_address}>
           Société d’expertise comptable et de commissariat aux comptes SARL au
-          capital de 100 000 XPF • RCS Nouméa B 1 470 261 687 23 06 00 •
-          abalone@abalone.nc Isabelle Cecchini • 687 78 10 03 • ic@abalone.nc
+          capital de 100 000 XPF • RCS Nouméa B 1 470 261 • 687 23 06 00 •
+          abalone@abalone.nc Isabelle Cecchini • 687 78 10 03 • ic@abalone.nc •
         </div>
       </div>
     </div>

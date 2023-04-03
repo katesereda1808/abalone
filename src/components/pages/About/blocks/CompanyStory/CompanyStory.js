@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import styles from "./CompanyStory.module.css";
-import author_img from "../../../../../assets/images/Isabelle.jpeg";
+import author_img from "../../../../../assets/images/Isabelle.jpg";
 import PhotoCircle from "../../../../UI/atoms/PhotoCircle/PhotoCircle";
 const CompanyStory = () => {
   const { t, i18n } = useTranslation();
@@ -10,10 +10,10 @@ const CompanyStory = () => {
       <div className={styles.author}>
         <PhotoCircle imgUrl={author_img} imgAlt={imgAlt} />
         <h2>Isabelle CECCHINI</h2>
-        <p>{t("director")}</p>
+        <p>{t("chartered_accountant_and_statutory_auditor")}</p>
       </div>
       <div className={styles.text}>
-        <p>{t("company_story")}</p>
+        <p>{t("isabelle_description")}</p>
       </div>
     </div>
   );

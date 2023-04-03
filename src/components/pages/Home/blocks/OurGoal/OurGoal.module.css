@@ -3,7 +3,7 @@
     min-height: 700px;
     width: 100%;
     background-image: url(../../../../../assets/images/polygon_background.png);
-    background-position: top;
+    background-position: 20%;
     background-repeat: no-repeat;
     background-size: cover;
     /* background-size: contain; */
@@ -14,7 +14,7 @@
 }
 
 .content {
-    color: #006560;
+    color: #ffffff;
     font-size: 29px;
     font-weight: 600;
     display: flex;

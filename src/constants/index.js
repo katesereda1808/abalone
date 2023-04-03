@@ -1,10 +1,13 @@
-import StephanieImg from "../assets/images/Stephanie.jpeg";
-import KevinImg from "../assets/images/Kevin.jpeg";
-import KimberleyImg from "../assets/images/Kimberley.jpeg";
-import NellyImg from "../assets/images/Nelly.jpeg";
-import AlizeeImg from "../assets/images/Alizee.jpeg";
-import LeaImg from "../assets/images/Lea.jpeg";
+import StephanieImg from "../assets/images/Stephanie.jpg";
+import KevinImg from "../assets/images/Kevin.jpg";
+import KimberleyImg from "../assets/images/Kimberley.jpg";
+import NellyImg from "../assets/images/Nelly.jpg";
+import AlizeeImg from "../assets/images/Alizee.jpg";
+import LeaImg from "../assets/images/Lea.jpg";
 import ArmandImg from "../assets/images/Armand.jpeg";
+import IsabelleImg from "../assets/images/Isabelle.jpg";
+import NicoleImg from "../assets/images/Nicole.jpeg";
+import NoemieImg from "../assets/images/Noemie.jpg";
 import WomanIcon from "../assets/images/woman_icon.png";
 
 export const LANGUAGES = [
@@ -16,7 +19,7 @@ export const COWORKERS_INFO = [
     name: "Stephanie",
     office: "La Foa",
     imgUrl: StephanieImg,
-    title: "accountant",
+    title: "office_manager",
     description: "stephanie_description",
   },
   {
@@ -27,11 +30,11 @@ export const COWORKERS_INFO = [
     description: "kevin_description",
   },
   {
-    name: "Kimberley",
+    name: "Alizée",
     office: "Ducos",
-    imgUrl: KimberleyImg,
-    title: "assistant_accountant",
-    description: "kimberley_description",
+    imgUrl: AlizeeImg,
+    title: "experienced_accountant",
+    description: "alizee_description",
   },
   {
     name: "Nelly",
@@ -41,22 +44,35 @@ export const COWORKERS_INFO = [
     description: "nelly_description",
   },
   {
-    name: "Alizée",
-    office: "Ducos",
-    imgUrl: AlizeeImg,
-    title: "accountant",
-    description: "alizee_description",
-  },
-  {
     name: "Léa",
     office: "Ducos",
     imgUrl: LeaImg,
     title: "assistant_accountant",
     description: "lea_description",
   },
+  {
+    name: "Kimberley",
+    office: "Ducos",
+    imgUrl: KimberleyImg,
+    title: "assistant_accountant",
+    description: "kimberley_description",
+  },
 ];
 
 export const PARTNERS_INFO = [
+  // {
+  //   name: "Isabelle",
+  //   imgUrl: IsabelleImg,
+  //   title: "chartered_accountant_and_statutory_auditor",
+  //   description: "isabelle_description",
+  // },
+  {
+    name: "Nicole",
+    imgUrl: NicoleImg,
+    title:
+      "organization_occasional_reinforcement_at_clients_and_outsourcing_missions",
+    description: "nicole_description",
+  },
   {
     name: "Armand",
     imgUrl: ArmandImg,
@@ -64,10 +80,10 @@ export const PARTNERS_INFO = [
     description: "armand_description",
   },
   {
-    name: "Nicole",
-    imgUrl: WomanIcon,
-    title: "confirmed_accountant",
-    description: "nicole_description",
+    name: "Noemie",
+    imgUrl: NoemieImg,
+    title: "consolidation_and_cross_functional_services",
+    description: "noemie_description",
   },
 ];
 
