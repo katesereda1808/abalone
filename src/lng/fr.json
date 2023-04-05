@@ -40,37 +40,54 @@
 
 
     "services_heading": "NOS SERVICES",
-    "account_establishment": "Etablissement des comptes",
-    "accounting_maintenance": "Tenue de comptabilité, surveillance",
-    "implementation_of_adapted_accounting_plans": "Mise en place de Plans comptables adaptés",
-    "control_of_accounting_services": "Contrôle des services comptables",
-    "setting_up_and_monitoring_operational_analytical_accounting": "Mise en place et suivi de la comptabilité analytique d'exploitation",
-    "preparation_of_periodic_financial_statements": "Etablissement de situations comptables périodiques, des bilans et comptes de rési",
-    "preparation_of_forecasting_statements": "Etablissement de situations prévisionnelles",
-    "preparation_of_group_accounts": "Etablissement des comptes de groupes, consolidation des bilans et des résultats",
-    "preparation_of_financing_tables": "Etablissement de tableaux de financement",
-    "assistance_to_works_councils": "Assistance de comités d'entreprise",
-    "all_types_of_accounting_assistance": "Assistance comptable de toute nature",
-    "audit_certification": "Révision, certification",
-    "contractual_audit_of_accounts": "Révision contractuelle des comptes",
-    "audit_of_internal_control_procedures": "Révision des procédures de contrôle interne",
-    "audit_before_taking_an_investment": "Révision avant prise de participation",
-    "statutory_audit_of_accounts": "Révision légale des comptes",
+
+    "bookkeeping_and_auditing": "Bookkeeping and auditing",
+    "bookkeeping": "Tenue de la comptabilité",
+    "establishment_of_financial_statements": "Etablissement des Etats Financiers",
     "evaluation": "Evaluation",
-    "evaluation_of_companies": "Evaluation d'entreprises et de titres, apports, transmissions, fusions",
-    "expertise": "Expertise",
-    "amicable_expertise": "Expertise amiable",
-    "arbitration": "Arbitrage",
-    "commitment_to_contributions": "Commissariat aux apports",
-    "commitment_to_mergers": "Commissariat à la fusion",
-    "consolidations": "Consolidations",
-    "mergers": "Fusions",
+    "forecasting": "Prévisionnel",
+
+
+    "consolidation_of_accounts": "Consolidation de comptes",
+    "harmonization_of_accounting_plans": "Harmonisation des plans comptables",
+    "preparation_of_consolidation_packages": "Préparation des liasses de consolidation",
+    "restatement_and_elimination_entries": "Ecritures de retraitement et d’élimination",
+    "establishment_of_consolidated_financial_statements": "Etablissement des Etas financiers consolidés",
+
+
+    "audit_statutory_audit_and_related_missions": "Audit, commissariat aux comptes, et missions connexes",
+    "contractual_audit_of_accounts": "Audit contractuel des comptes",
+    "audit_of_internal_control_procedures": "Audit des procédures de contrôle interne",
+    "legal_control_of_accounts": "Contrôle légal des comptes",
+
+
+    "legal_and_consulting": "Juridique & Conseil",
+    "creation_of_companies": "Création de société",
+    "statutory_and_non_statutory_changes": "Modifications statutaires ou non",
+    "mergers_and_restructurings": "Fusions & Restructurations",
+    "mothballing_and_liquidations": "Mise en sommeil & liquidations",
+
+
+    "fiscal_and_social": "Fiscal & Social",
+    "tax_returns": "Liasses fiscales",
+    "payroll_statements": "Bulletins de paie",
+    "other_types_of_tax_and_social_declarations": "Tout autres type de déclarations fiscales et sociales",
+
+    "organization_and_training": "Organisation & Formation",
+    "inventory_and_recommendations": "Etat des lieux & recommandations",
+    "implementation_and_follow_up_of_operational_cost_accounting": "Mise en place et suivi de la comptabilité analytique opérationnelle",
+    "all_types_of_accounting_assistance": "Tout type d’assistance comptable",
+    "customized_training": "Formations sur mesure",
+
+
+
+
     "training_and_coaching_services": "Nous pouvons également vous proposer des missions de formation et de coaching dans le domaine de la comptabilité, de la consolidation et de la fiscalité.",
 
     "team_members": "l'equipe",
     "cross_functional_roles": "fonctions transverses",
-    "expert_accountant": "expert-comptable",
-    "chartered_accountant_and_statutory_auditor": "expert-comptable et commissaire aux comptes",
+    "expert_accountant": "Expert-comptable",
+    "chartered_accountant_and_statutory_auditor": "Expert-comptable et commissaire aux comptes",
     "organization_occasional_reinforcement_at_clients_and_outsourcing_missions": "Organisation, renfort ponctuel chez le client et missions d’outsourcing ",
     "office_manager": "Responsable de bureau",
     "accountant": "Comptable",

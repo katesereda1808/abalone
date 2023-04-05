@@ -118,4 +118,64 @@ export const OFFICES_EMAILS = [
    { value: "ducos@abalone.nc", label: "Ducos" },
    { value: "lafoa@abalone.nc", label: "La Foa" },
   //  { value: "paita@abalone.nc", label: "Païta" },
- ];
+];
+export const SERVICES_LIST = [
+  {
+    heading: "bookkeeping_and_auditing",
+    content: [
+      "bookkeeping",
+      "establishment_of_financial_statements",
+      "evaluation",
+      "forecasting",
+    ],
+  },
+  {
+    heading: "consolidation_of_accounts",
+    content: [
+      "harmonization_of_accounting_plans",
+      "preparation_of_consolidation_packages",
+      "restatement_and_elimination_entries",
+      "establishment_of_consolidated_financial_statements",
+    ],
+  },
+  {
+    heading: "audit_statutory_audit_and_related_missions",
+    content: [
+      "contractual_audit_of_accounts",
+      "audit_of_internal_control_procedures",
+      "legal_control_of_accounts",
+    ],
+  },
+  {
+    heading: "legal_and_consulting",
+    content: [
+      "creation_of_companies",
+      "statutory_and_non_statutory_changes",
+      "mergers_and_restructurings",
+      "mothballing_and_liquidations",
+    ],
+  },
+  {
+    heading: "fiscal_and_social",
+    content: [
+      "tax_returns",
+      "payroll_statements",
+      "other_types_of_tax_and_social_declarations",
+    ],
+  },
+  {
+    heading: "organization_and_training",
+    content: [
+      "inventory_and_recommendations",
+      "implementation_and_follow_up_of_operational_cost_accounting",
+      "all_types_of_accounting_assistance",
+      "customized_training",
+    ],
+  },
+];
+
+
+
+
+
+

@@ -39,37 +39,53 @@
 
 
     "services_heading": "OUR SERVICES",
-    "account_establishment": "Account establishment",
-    "accounting_maintenance": "Accounting maintenance, supervision",
-    "implementation_of_adapted_accounting_plans": "Implementation of adapted accounting plans",
-    "control_of_accounting_services": "Control of accounting services",
-    "setting_up_and_monitoring_operational_analytical_accounting": "Setting up and monitoring operational analytical accounting",
-    "preparation_of_periodic_financial_statements": "Preparation of periodic financial statements, balance sheets, and result statements",
-    "preparation_of_forecasting_statements": "Preparation of forecasting statements",
-    "preparation_of_group_accounts": "Preparation of group accounts and consolidation of balance sheets and results",
-    "preparation_of_financing_tables": "Preparation of financing tables",
-    "assistance_to_works_councils": "Assistance to works councils",
-    "all_types_of_accounting_assistance": "All types of accounting assistance",
-    
-    "audit_certification": "Audit, certification",
+
+
+    "bookkeeping_and_auditing": "Bookkeeping and auditing",
+    "bookkeeping": "bookkeeping",
+    "establishment_of_financial_statements": "Establishment of financial statements",
+    "evaluation": "Evaluation",
+    "forecasting": "Forecasting",
+
+
+    "consolidation_of_accounts": "Consolidation of accounts",
+    "harmonization_of_accounting_plans": "Harmonization of accounting plans",
+    "preparation_of_consolidation_packages": "Preparation of consolidation packages",
+    "restatement_and_elimination_entries": "Restatement and elimination entries",
+    "establishment_of_consolidated_financial_statements": "Establishment of consolidated financial statements",
+
+
+    "audit_statutory_audit_and_related_missions": "Audit, statutory audit and related missions",
     "contractual_audit_of_accounts": "Contractual audit of accounts",
     "audit_of_internal_control_procedures": "Audit of internal control procedures",
-    "audit_before_taking_an_investment": "Audit before taking an investment",
-    "statutory_audit_of_accounts": "Statutory audit of accounts",
-    "evaluation": "Evaluation",
-    "evaluation_of_companies": "Evaluation of companies",
-    "expertise": "Expertise",
-    "amicable_expertise": "Amicable expertise",
-    "arbitration": "Arbitration",
-    "commitment_to_contributions": "Commitment to contributions",
-    "commitment_to_mergers": "Commitment to mergers",
-    "consolidations": "Consolidations",
-    "mergers": "Mergers",
+    "legal_control_of_accounts": "Legal control of accounts",
+
+
+    "legal_and_consulting": "Legal & Consulting",
+    "creation_of_companies": "Creation of companies",
+    "statutory_and_non_statutory_changes": "Statutory and non-statutory changes",
+    "mergers_and_restructurings": "Mergers & Restructurings",
+    "mothballing_and_liquidations": "Mothballing & liquidations",
+
+
+    "fiscal_and_social": "Fiscal & Social",
+    "tax_returns": "Tax returns",
+    "payroll_statements": "Payroll statements",
+    "other_types_of_tax_and_social_declarations": "All other types of tax and social declarations",
+
+    "organization_and_training": "Organization & Training",
+    "inventory_and_recommendations": "Inventory and recommendations",
+    "implementation_and_follow_up_of_operational_cost_accounting": "Implementation and follow-up of operational cost accounting",
+    "all_types_of_accounting_assistance": "All types of accounting assistance",
+    "customized_training": "Customized training",
+
+
+
     "training_and_coaching_services": "We can also offer training and coaching services in the fields of accounting, consolidation, and taxation.",
 
     "team_members": "team members",
     "cross_functional_roles": "cross-functional roles",
-    "expert_accountant": "expert accountant",
+    "expert_accountant": "Expert accountant",
     "chartered_accountant_and_statutory_auditor": "Chartered Accountant and Statutory Auditor",
     "organization_occasional_reinforcement_at_clients_and_outsourcing_missions": "Organization, occasional reinforcement at clients' and outsourcing missions",
     "office_manager": "Office Manager",
