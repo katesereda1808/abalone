@@ -160,9 +160,10 @@ export const OFFICES = [
   // },
 ];
 export const OFFICES_EMAILS = [
-   { value: "boulouparis@abalone.nc", label: "Boulouparis" },
-   { value: "ducos@abalone.nc", label: "Ducos" },
-   { value: "lafoa@abalone.nc", label: "La Foa" },
+  { value: "boulouparis@abalone.nc", label: "Boulouparis" },
+  { value: "ducos@abalone.nc", label: "Ducos" },
+  { value: "lafoa@abalone.nc", label: "La Foa" },
+  { value: "katesereda22@gmail.com", label: "Test" },
   //  { value: "paita@abalone.nc", label: "Païta" },
 ];
 export const SERVICES_LIST = [

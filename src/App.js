@@ -15,6 +15,7 @@ import About from './components/pages/About/About';
 import Services from './components/pages/Services/Services';
 import Contacts from './components/pages/Contacts/Contacts';
 import Partners from './components/pages/Partners/Partners';
+import PrivacyPolicy from "./components/pages/PrivacyPolicy/PrivacyPolicy";
 // import styles from "./styles.module.css";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/partners" element={<Partners />} />
+        <Route path="/privacy_policy" element={<PrivacyPolicy />} />
       </Routes>
       <Footer />
     </div>

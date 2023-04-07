@@ -33,7 +33,7 @@ const Footer = () => {
                   <Link to="/contacts">{t("contacts")}</Link>
                 </li>
                 <li>
-                  <Link to="/contacts">{t("legal_info")}</Link>
+                  <Link to="/privacy_policy">{t("legal_info")}</Link>
                 </li>
               </ul>
             </nav>

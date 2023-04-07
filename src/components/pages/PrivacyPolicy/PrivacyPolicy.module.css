@@ -1,0 +1,41 @@
+.container {
+    padding: 60px 100px;
+}
+.text_box ul {
+    list-style: disc;
+    margin-left: 30px;
+}
+.text_box {
+    line-height: 190%;
+    font-size: 18px;
+}
+.text_box h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.text_box h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+@media (max-width: 1024px) {
+    .container {
+    padding: 60px 50px;
+}
+}
+@media (max-width: 400px) {
+    .container {
+        padding: 60px 30px;
+    }
+    .text_box {
+        line-height: 190%;
+        font-size: 16px;
+    }
+    .text_box h2 {
+        font-size: 30px;
+    }
+    .text_box h3 {
+        font-size: 25px;
+    }
+}

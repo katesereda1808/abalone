@@ -3,6 +3,7 @@ import styles from "./Form.module.css";
 import { useState } from "react";
 import ContactBtn from "../../atoms/ContactBtn/ContactBtn";
 import Dropdown from "../Dropdown/Dropdown";
+import { Link } from "react-router-dom";
 
 const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
   const { t } = useTranslation();
@@ -11,6 +12,10 @@ const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
     e.preventDefault();
     console.log(office);
   };
+  // валидация
+  // если не выбран офис
+  // если не заполнено одно из полей
+  // если неправильный email
 
   return (
     <form
@@ -45,13 +50,16 @@ const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
       />
 
       {/* // put thank u page */}
-      <input type="hidden" name="_next" value="http://localhost:3000/"></input>
+      <input type="hidden" name="_next" value="http://localhost:3000"></input>
       <input type="hidden" name="_subject" value="New message!"></input>
       <input
         type="hidden"
         name="_autoresponse"
         value="Thank you for choosing our company! We got your request"
       ></input>
+      <Link target="_blank" to="/privacy_policy">
+        {t("privacy_policy")}
+      </Link>
       <ContactBtn text={btnText} options={options} onClick={TestButton} />
     </form>
   );
