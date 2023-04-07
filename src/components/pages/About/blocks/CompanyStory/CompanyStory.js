@@ -8,7 +8,9 @@ const CompanyStory = () => {
   return (
     <div className={styles.container}>
       <div className={styles.author}>
-        <PhotoCircle imgUrl={author_img} imgAlt={imgAlt} />
+        <div className={styles.photo_container}>
+          <PhotoCircle imgUrl={author_img} imgAlt={imgAlt} />
+        </div>
         <h2>Isabelle CECCHINI</h2>
         <p>{t("chartered_accountant_and_statutory_auditor")}</p>
       </div>

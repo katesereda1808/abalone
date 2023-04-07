@@ -15,6 +15,10 @@
     font-weight: 400;
     line-height: 145%;
 }
+.photo_container {
+    /* height: 300px;
+    width: 300px; */
+}
 .author_photo {
     height: 300px;
     width: 300px;

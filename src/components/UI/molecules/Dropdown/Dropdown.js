@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-
 import styles from "./Dropdown.module.css";
 
 const Icon = () => {

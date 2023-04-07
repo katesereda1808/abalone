@@ -6,7 +6,17 @@
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 40px 0 20px;
+    margin: 40px 0 40px;
+    text-align: center;
+}
+.page_subtitle {
+    background-color: #00867F;
+    color: white;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 60px 0 0;
+    text-transform: capitalize;
     text-align: center;
 }
 .team_members {
@@ -17,14 +27,40 @@
     gap: 30px;
     padding: 60px 0;
 }
+@media (max-width: 1247px) {
+    .team_members {
+        flex-direction: column;
+    }
+}
 @media (max-width: 500px) {
     .container {
         min-width: 180px;
         width: 100%;
         padding: 80px 10px;
     }
+    .team_members {
+        padding: 40px 0;
+    }
     .photo_circle {
         width: 10vw;
         height: 10vh;
+    }
+
+    .page_title {
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0 0 40px;
+        text-align: center;
+    }
+    .page_subtitle {
+        background-color: #00867F;
+        color: white;
+        padding: 10px;
+        font-size: 25px;
+        font-weight: 700;
+        margin: 40px 0 0;
+        text-transform: capitalize;
+        text-align: center;
     }
 }

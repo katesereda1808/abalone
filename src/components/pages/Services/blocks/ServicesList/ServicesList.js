@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import styles from "./ServicesList.module.css";
 import { SERVICES_LIST } from "../../../../../constants";
 const ServicesList = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   return (
     <div className={styles.container}>
       {/* <h1>{t("about")}</h1> */}

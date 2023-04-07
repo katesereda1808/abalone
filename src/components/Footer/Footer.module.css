@@ -52,6 +52,9 @@
         gap: 50px;
         margin-bottom: 40px;
     }
+    .navigation {
+        padding-left: 0;
+    }
 }
 @media (max-width: 650px) {
     .container {

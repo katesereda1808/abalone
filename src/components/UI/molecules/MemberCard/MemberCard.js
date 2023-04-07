@@ -1,14 +1,28 @@
 import styles from "./MemberCard.module.css";
 import PhotoCircle from "../../atoms/PhotoCircle/PhotoCircle";
 
-const MemberCard = ({ imgUrl, imgAlt, name, title, description, office }) => {
+const MemberCard = ({ imgUrl, imgAlt, name, title, description, ShowDescription }) => {
   return (
     <div className={styles.team_member_card}>
-      {imgUrl && <PhotoCircle imgUrl={imgUrl} imgAlt={imgAlt} />}
-      <div className={styles.name}>{name}</div>
-      <div className={styles.title}>{title}</div>
-      {office && <div className={styles.office}>{office}</div>}
-      <div className={styles.description}>{description}</div>
+      <div className={styles.card_top}>
+        {imgUrl && (
+          <div className={styles.photo_container}>
+            <PhotoCircle imgUrl={imgUrl} imgAlt={imgAlt} />
+          </div>
+        )}
+        <div className={styles.card_content}>
+          <div className={styles.name}>{name}</div>
+          <div className={`${title.length > 60 && styles.long_title} ${styles.title}`}>
+            {title}
+          </div>
+        </div>
+      </div>
+      <details className={styles.details}>
+        <summary className={styles.summary}>
+          <button onClick={ShowDescription} className={styles.chevron} />
+        </summary>
+        <div className={styles.description}>{description}</div>
+      </details>
     </div>
   );
 };

@@ -14,6 +14,52 @@ export const LANGUAGES = [
   "en",
   "fr"
 ]
+export const COWORKERS_LAFOA = [
+  {
+    name: "Stephanie",
+    office: "La Foa",
+    imgUrl: StephanieImg,
+    title: "office_manager",
+    description: "stephanie_description",
+  },
+  {
+    name: "Kevin",
+    office: "La Foa",
+    imgUrl: KevinImg,
+    title: "assistant_accountant",
+    description: "kevin_description",
+  },
+];
+export const COWORKERS_DUCOS = [
+  {
+    name: "Alizée",
+    office: "Ducos",
+    imgUrl: AlizeeImg,
+    title: "experienced_accountant",
+    description: "alizee_description",
+  },
+  {
+    name: "Nelly",
+    office: "Ducos",
+    imgUrl: NellyImg,
+    title: "accountant",
+    description: "nelly_description",
+  },
+  {
+    name: "Léa",
+    office: "Ducos",
+    imgUrl: LeaImg,
+    title: "assistant_accountant",
+    description: "lea_description",
+  },
+  {
+    name: "Kimberley",
+    office: "Ducos",
+    imgUrl: KimberleyImg,
+    title: "assistant_accountant",
+    description: "kimberley_description",
+  },
+];
 export const COWORKERS_INFO = [
   {
     name: "Stephanie",
