@@ -7,7 +7,6 @@
 .author {
     min-width: 300px;
     width: 55%;
-    height: 100%;
     background-color: #00867F;
     color: rgb(255, 255, 255);
     padding: 50px;
@@ -16,8 +15,9 @@
     line-height: 145%;
 }
 .photo_container {
-    /* height: 300px;
-    width: 300px; */
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
 }
 .author_photo {
     height: 300px;
@@ -47,9 +47,9 @@
     display: flex;
     align-items: center;
     padding: 50px;
-    font-size: 30px;
+    font-size: 20px;
     padding: 50px;
-    line-height: 145%;
+    line-height: 158%;
 }
 @media (max-width: 1100px) {
     .container {
@@ -60,7 +60,7 @@
         width: 100%;
     }
     .text {
-        font-size: 27px;
+        /* font-size: 27px; */
         padding: 30px;
     }
 }
@@ -90,4 +90,12 @@
     .text {
         font-size: 20px;
     }
+}
+@media (max-width: 350px) {
+    .photo_container {
+    height: 70vw;
+    width: 70vw;
+    min-width: 200px;
+    min-height: 200px;
+}
 }

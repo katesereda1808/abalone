@@ -192,6 +192,9 @@
     .long_title {
         font-size: 12px;
     }
+    .description {
+        font-size: 16px;
+    }
     .team_member_card {
         padding: 30px 15px;
     }
