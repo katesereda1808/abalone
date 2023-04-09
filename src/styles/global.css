@@ -4,7 +4,6 @@
 body {
    font-family: 'Open Sans', sans-serif;
    color: #252525;
-
 }
 
 .hidden {
@@ -19,21 +18,8 @@ body {
     background-color: rgba(0, 0, 0, 0.49);
     height: 100%;
     width: 100%;
-    /* position: absolute;
-    top: 0;
-    left: 0; */
-}
-.contact_form {
-    /* background-color: rgb(255, 255, 255);
-    padding: 100px 80px;
-    border-radius: 56px; */
 }
 
-.contact_btn {
-    /* font-size: 30px;
-    font-weight: 700;
-    padding: 20px 30px;
-    border-radius: 20px; */
-    
+.link {
+    color: #00867F;
 }
-

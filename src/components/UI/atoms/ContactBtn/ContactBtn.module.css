@@ -10,6 +10,11 @@
 .btn:hover {
     background-color: #00b3aa;
 }
+.btn:disabled {
+    background-color: #eaeaea;
+    color: #9c9c9c;
+    cursor: not-allowed;
+}
 .white_btn {
     color: #00867F;
     background-color: #ffffff;;
