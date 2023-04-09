@@ -71,7 +71,8 @@ a:active {
 	outline: none;
 }
 
-button {
+button,
+input[type="checkbox"] {
 	cursor: pointer;
 }
 

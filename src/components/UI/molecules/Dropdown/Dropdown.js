@@ -17,8 +17,7 @@ const Dropdown = ({ placeHolder, options, onChange }) => {
         const handler = (e) => {
             if (inputRef.current && !inputRef.current.contains(e.target)) {
                 setShowMenu(false);
-            }
-            
+            };
         };
         window.addEventListener("click", handler);
         return () => {
@@ -37,7 +36,7 @@ const Dropdown = ({ placeHolder, options, onChange }) => {
 
   const onItemClick = (option) => {
     setSelectedValue(option);
-    onChange(option)
+    onChange(option);
   };
 
   const isSelected = (option) => {

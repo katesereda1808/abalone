@@ -4,6 +4,12 @@ import { useState } from "react";
 import ContactBtn from "../../atoms/ContactBtn/ContactBtn";
 import Dropdown from "../Dropdown/Dropdown";
 import { Link } from "react-router-dom";
+import {
+  REGEMAIL,
+  REGLETTERS,
+  REGPHONE,
+  REGNOTEMPTY,
+} from "../../../../constants";
 
 const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
   const { t } = useTranslation();
@@ -19,19 +25,65 @@ const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
     message: ''
   };
   const [disabled, setDisabled] = useState(true);
+  const [checkBox, setcheckBox] = useState(false);
   const [formData, setFormData] = useState(initialData);
+  const chooseOffice = (option) => {
+    setOffice(option);
+    setDisabled(!validateInput());
+  }
 
+  const clickCheckBox = () => {
+    setcheckBox(!checkBox);
+    console.log(checkBox);
+  }
   const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
     console.log(formData);
+    // activateButton();
+    // if office is chosen
+    if (office && checkBox) {
+      setDisabled(!validateInput());
+    }
   };
-  // validation
-  // if no office is chosen
-  // if some field isn't filled
-  // if wrong email
+  const getRegEx = (inputName) => {
+    let regEx = null;
+    switch (inputName) {
+      case "name":
+        // only letters
+        regEx = REGLETTERS;
+        break;
+      case "email":
+        // validation
+        regEx = REGEMAIL;
+        break;
+      case "phone":
+        // min and max of numbers
+        regEx = REGPHONE;
+        break;
+      default:
+        // not empty
+        regEx = REGNOTEMPTY;
+        break;
+    }
+    return regEx;
+  }
+  const validateInput = () => {
+    for (let key in formData) {
+      const input = formData[key];
+      let regEx = getRegEx(`${key}`);
+      // console.log(key);
+      // console.log(regEx);
+      // console.log(input);
+      console.log(key, regEx.test(input));
+      if(!regEx.test(input)){
+        return false
+      }
+    };
+    return true;
+  };
 
   return (
     <form
@@ -42,7 +94,7 @@ const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
       <Dropdown
         placeHolder={selectPlaceholder}
         options={options}
-        onChange={(option) => setOffice(option)}
+        onChange={(option) => chooseOffice(option)}
       />
       <input
         className={styles.form__input}
@@ -72,7 +124,6 @@ const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
         value={formData.message}
         onChange={handleChange}
       />
-
       {/* // put thank u page */}
       <input type="hidden" name="_next" value="http://localhost:3000"></input>
       <input type="hidden" name="_subject" value="New message!"></input>
@@ -82,13 +133,12 @@ const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
         value="Thank you for choosing our company! We got your request"
       ></input>
       <label>
-        <input type="checkbox" />
-        {t("i_agree_with")}
+        <input type="checkbox" checked={checkBox} onChange={clickCheckBox} />
+        <p className={styles.label_text}>{t("i_agree_with")}</p>
         <Link className="link" target="_blank" to="/privacy_policy">
           {t("privacy_policy")}
         </Link>
       </label>
-
       <ContactBtn
         disabledMode={disabled}
         text={btnText}

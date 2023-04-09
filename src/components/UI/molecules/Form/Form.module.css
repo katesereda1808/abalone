@@ -23,6 +23,10 @@
 .form__textarea {
     height: 80px;
 }
+.label_text {
+    display: inline;
+    margin-left: 8px;
+}
 @media (max-width: 800px) {
     .form {
         padding: 50px 30px;
