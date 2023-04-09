@@ -16,6 +16,7 @@ import Services from './components/pages/Services/Services';
 import Contacts from './components/pages/Contacts/Contacts';
 import Partners from './components/pages/Partners/Partners';
 import PrivacyPolicy from "./components/pages/PrivacyPolicy/PrivacyPolicy";
+import LegalInfo from "./components/pages/LegalInfo/LegalInfo";
 // import styles from "./styles.module.css";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/partners" element={<Partners />} />
         <Route path="/privacy_policy" element={<PrivacyPolicy />} />
+        <Route path="/legal_information" element={<LegalInfo />} />
       </Routes>
       <Footer />
     </div>

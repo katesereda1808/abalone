@@ -110,11 +110,11 @@ const PrivacyPolicy = () => {
           17. La société Abalone met en œuvre différents traitements dont les
           bases légales et les finalités sont les suivantes :
         </p>
-        <b>
+        <strong>
           Finalités des traitements fondés sur l’exécution des mesures
           précontractuelles prises à votre demande et/ou l’exécution du contrat
           que vous avez souscrit :
-        </b>
+        </strong>
         <ul>
           <li>la gestion des prospects ;</li>
           <li>la gestion des nouveaux clients, en ce incluant :</li>
@@ -167,17 +167,17 @@ const PrivacyPolicy = () => {
             prestataires.
           </li>
         </ul>
-        <b>
+        <strong>
           Finalités des traitements fondés sur le respect de nos obligations
           légales et réglementaires :
-        </b>
+        </strong>
         <ul>
           <li>la gestion de la comptabilité générale.</li>
         </ul>
-        <b>
+        <strong>
           Finalités des traitements fondés sur la poursuite de nos intérêts
           légitimes :
-        </b>
+        </strong>
         <ul>
           <li>
             la gestion des cookies du site https://www.abalone.nc/ non soumis à
@@ -185,7 +185,7 @@ const PrivacyPolicy = () => {
           </li>
           <li>la gestion de l’accueil de nos visiteurs.</li>
         </ul>
-        <b>Finalités des traitements fondés sur votre consentement :</b>
+        <strong>Finalités des traitements fondés sur votre consentement :</strong>
         <ul>
           <li>
             la gestion des cookies du site https://www.abalone.nc/ soumis à
@@ -282,24 +282,24 @@ const PrivacyPolicy = () => {
           26. Plus précisément, nous organisons notre politique de conservation
           des données de la manière suivante :
         </p>
-        <b>Finalités</b>
-        <b>Durée de conservation</b>
+        <strong>Finalités</strong>
+        <strong>Durée de conservation</strong>
         <p>La gestion des prospects</p>
-        <b>Données clients</b>
-        <b>Archive courante :</b>
+        <strong>Données clients</strong>
+        <strong>Archive courante :</strong>
         <ul>
           <li>durée de la relation contractuelle</li>
         </ul>
-        <b>Archive intermédiaire :</b>
+        <strong>Archive intermédiaire :</strong>
         <ul>
           <li>5 ans</li>
         </ul>
-        <b>Données prospects :</b>
-        <b>Archive courante :</b>
+        <strong>Données prospects :</strong>
+        <strong>Archive courante :</strong>
         <ul>
           <li>durée de gestion de la demande</li>
         </ul>
-        <b>Archive intermédiaire :</b>
+        <strong>Archive intermédiaire :</strong>
         <p>3 ans à compter du dernier contact émanant du prospect</p>
         <p>La gestion des nouveaux clients</p>
         <p>Durée de la relation contractuelle</p>
@@ -345,31 +345,31 @@ const PrivacyPolicy = () => {
         <p>La gestion des journaux de paye</p>
         <p>10 ans à compter de l’émission du journal de paye</p>
         <p>La gestion des anomalies</p>
-        <b>Sanctions disciplinaires</b>
-        <b>Archive courante :</b>
+        <strong>Sanctions disciplinaires</strong>
+        <strong>Archive courante :</strong>
         <ul>
           <li>N/A.</li>
         </ul>
-        <b>Archive intermédiaire :</b>
+        <strong>Archive intermédiaire :</strong>
         <ul>
           <li>2 mois à compter de la sanction.</li>
         </ul>
-        <b>Documents du contentieux</b>
-        <b>Archive courante :</b>
+        <strong>Documents du contentieux</strong>
+        <strong>Archive courante :</strong>
         <ul>
           <li>durée du contentieux.</li>
         </ul>
-        <b>Archive intermédiaire :</b>
+        <strong>Archive intermédiaire :</strong>
         <p>
           durée des prescriptions légales (5 ans pour les actions portant sur
           l’exécution du contrat de travail).
         </p>
         <p>La gestion des relations avec les fournisseurs</p>
-        <b>Archive courante :</b>
+        <strong>Archive courante :</strong>
         <ul>
           <li>durée de la relation contractuelle</li>
         </ul>
-        <b>Archive intermédiaire :</b>
+        <strong>Archive intermédiaire :</strong>
         <ul>
           <li>5 ans</li>
         </ul>
@@ -408,26 +408,26 @@ const PrivacyPolicy = () => {
           L’établissement de tout moyen de preuve nécessaire à la défense de nos
           droits
         </p>
-        <b>Sanctions disciplinaires</b>
-        <b>Archive courante :</b>
+        <strong>Sanctions disciplinaires</strong>
+        <strong>Archive courante :</strong>
         <ul>
           <li>N/A.</li>
         </ul>
-        <b>Archive intermédiaire :</b>
+        <strong>Archive intermédiaire :</strong>
         <ul>
           <li>2 mois à compter de la sanction.</li>
         </ul>
-        <b>Documents du contentieux</b>
-        <b>Archive courante :</b>
+        <strong>Documents du contentieux</strong>
+        <strong>Archive courante :</strong>
         <ul>
           <li>durée du contentieux.</li>
         </ul>
-        <b>Archive intermédiaire :</b>
+        <strong>Archive intermédiaire :</strong>
         <p>
           durée des prescriptions légales (5 ans pour les actions portant sur
           l’exécution du contrat de travail).
         </p>
-        <b>3.6 Sécurité de vos données</b>
+        <strong>3.6 Sécurité de vos données</strong>
         <p>
           27. La société Abalone accorde une importance particulière à la
           sécurité de vos données personnelles.
@@ -499,13 +499,13 @@ const PrivacyPolicy = () => {
           aux obligations légales, des contrats définissant précisément les
           conditions et modalités de traitement des données personnelles.
         </p>
-        <b>3.7 Transfert de données en dehors de l’Union européenne</b>
+        <strong>3.7 Transfert de données en dehors de l’Union européenne</strong>
         <p>
           34. La société Abalone ne procède à aucun transfert de données à
           caractère personnel vous concernant en dehors de l’Union européenne.
         </p>
-        <b>4.Vos droits et leurs modalités d’exercice</b>
-        <b>4.1 Le contenu de vos droits</b>
+        <strong>4.Vos droits et leurs modalités d’exercice</strong>
+        <strong>4.1 Le contenu de vos droits</strong>
         <p>
           35. Vous bénéficiez des droits suivants liés aux données vous
           concernant :
@@ -539,7 +539,7 @@ const PrivacyPolicy = () => {
           <li>d’un droit à la portabilité des données fournies ;</li>
           <li>d’un droit d’opposition.</li>
         </ul>
-        <b>4.2 Le droit d’opposition</b>
+        <strong>4.2 Le droit d’opposition</strong>
         <p>
           37. Vous pouvez demander à exercer votre droit d’opposition à un
           traitement de données personnelles vous concernant pour des raisons
@@ -559,7 +559,7 @@ const PrivacyPolicy = () => {
           prospection sans qu’il soit nécessaire d’invoquer des raisons tenant à
           votre situation particulière.
         </p>
-        <b>4.3 L’exercice de vos droits</b>
+        <strong>4.3 L’exercice de vos droits</strong>
         <p>
           40. La communication de directives spécifiques post-mortem et
           l’exercice de vos droits s’effectuent par courrier électronique à
@@ -568,14 +568,14 @@ const PrivacyPolicy = () => {
           98803 NOUMEA CEDEX, précisant les informations permettant d’établir
           votre identité.
         </p>
-        <b>4.4 Le retrait du consentement</b>
+        <strong>4.4 Le retrait du consentement</strong>
         <p>
           41. Vous pouvez également retirer votre consentement à tout moment,
           pour les cas où celui-ci vous aurait été demandé (le retrait de votre
           consentement sera sans incidence sur la licéité du traitement réalisé
           avant le retrait du consentement).
         </p>
-        <b>4.5 L’introduction d’une réclamation</b>
+        <strong>4.5 L’introduction d’une réclamation</strong>
         <p>
           Si vous estimez, après nous avoir contactés, que vos droits sur vos
           données ne sont pas respectés, vous pouvez adresser une réclamation à
