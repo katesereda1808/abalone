@@ -8,6 +8,9 @@ body {
 .hidden {
    display: none;
 }
+.no_opacity {
+    opacity: 0;
+}
 .container {
     width: 100%;
     max-width: 1600px;

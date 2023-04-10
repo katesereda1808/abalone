@@ -11,7 +11,7 @@ import {
   REGNOTEMPTY,
 } from "../../../../constants";
 
-const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
+const Form = ({ btnText, options, selectPlaceholder }) => {
   const { t } = useTranslation();
   const [office, setOffice] = useState(null);
   const TestButton = (e) => {
@@ -24,12 +24,18 @@ const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
     phone: "",
     message: "",
   };
+  const inputErrors = {
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  };
   const [disabled, setDisabled] = useState(true);
   const [checkBox, setcheckBox] = useState(false);
   const [formData, setFormData] = useState(initialData);
+  const [errors, setErrors] = useState(inputErrors);
   const chooseOffice = (option) => {
     setOffice(option);
-    // setDisabled(!validateInput());
   };
 
   const clickCheckBox = () => {
@@ -37,12 +43,20 @@ const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
     console.log(checkBox);
   };
   const handleChange = (e) => {
-    setFormData((prev) => {
+    setFormData(() => {
       return {
         ...formData,
         [e.target.name]: e.target.value,
       };
     });
+    let regEx = getRegEx(e.target.name);
+    if (regEx.test(e.target.value)) {
+      console.log("valid");
+      setErrors({
+        ...errors,
+        [e.target.name]: false,
+      });
+    }
     console.log(formData);
   };
   const getRegEx = (inputName) => {
@@ -69,6 +83,7 @@ const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
   };
   const validateInput = useCallback(() => {
     for (let key in formData) {
+      console.log('validate')
       const input = formData[key];
       let regEx = getRegEx(`${key}`);
       console.log(key, regEx.test(input));
@@ -77,12 +92,25 @@ const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
       }
     }
     return true;
-  });
+  }, [formData]);
+
+  const handleBlur = (e) => {
+    console.log('blur')
+      let regEx = getRegEx(`${e.target.name}`);
+      if (!regEx.test(e.target.value)) {
+        console.log('invalid');
+        console.log(errors);
+        setErrors({
+          ...errors,
+          [e.target.name]: true,
+        });
+      }
+  }
+
   useEffect(() => {
     if (office && checkBox) {
-      console.log('checkbox '+checkBox)
-      setDisabled((prevState) => {
-        console.log(prevState);
+      console.log("checkbox " + checkBox);
+      setDisabled(() => {
         return !validateInput();
       });
     }
@@ -99,36 +127,80 @@ const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
         options={options}
         onChange={(option) => chooseOffice(option)}
       />
-      <input
-        className={styles.form__input}
-        name="name"
-        placeholder={t("form_name_placeholder")}
-        value={formData.name}
-        onChange={handleChange}
-      />
-      <input
-        className={styles.form__input}
-        name="email"
-        placeholder={t("form_email_placeholder")}
-        value={formData.email}
-        onChange={handleChange}
-      />
-      <input
-        className={styles.form__input}
-        name="phone"
-        placeholder={t("form_phone_placeholder")}
-        value={formData.phone}
-        onChange={handleChange}
-      />
-      <textarea
-        className={`${styles.form__input} ${styles.form__textarea}`}
-        name="message"
-        placeholder={t("form_message_placeholder")}
-        value={formData.message}
-        onChange={handleChange}
-      />
+      <div className={styles.input_container}>
+        <input
+          className={styles.form__input}
+          name="name"
+          placeholder={t("form_name_placeholder")}
+          value={formData.name}
+          onChange={handleChange}
+          onBlur={handleBlur}
+        />
+        <div
+          className={`${styles.input_error} ${
+            !errors.name ? "no_opacity" : ""
+          }`}
+        >
+          Name field is mandatory
+        </div>
+      </div>
+
+      <div className={styles.input_container}>
+        <input
+          className={styles.form__input}
+          name="email"
+          placeholder={t("form_email_placeholder")}
+          value={formData.email}
+          onChange={handleChange}
+          onBlur={handleBlur}
+        />
+        <div
+          className={`${styles.input_error} ${
+            !errors.email ? "no_opacity" : ""
+          }`}
+        >
+          email incorrect
+        </div>
+      </div>
+
+      <div className={styles.input_container}>
+        <input
+          className={styles.form__input}
+          name="phone"
+          placeholder={t("form_phone_placeholder")}
+          value={formData.phone}
+          onChange={handleChange}
+          onBlur={handleBlur}
+        />
+        <div
+          className={`${styles.input_error} ${
+            !errors.phone ? "no_opacity" : ""
+          }`}
+        >
+          phone incorrect
+        </div>
+      </div>
+
+      <div className={styles.input_container}>
+        <textarea
+          className={`${styles.form__input} ${styles.form__textarea}`}
+          name="message"
+          placeholder={t("form_message_placeholder")}
+          value={formData.message}
+          onChange={handleChange}
+          onBlur={handleBlur}
+        />
+        <div
+          className={`${styles.input_error} ${
+            !errors.message ? "no_opacity" : ""
+          }`}
+        >
+          this field is mandatory
+        </div>
+      </div>
+
       {/* // put thank u page */}
-      <input type="hidden" name="_next" value="http://localhost:3000"></input>
+      <input type="hidden" name="_next" value="https://abalone.bc"></input>
       <input type="hidden" name="_subject" value="New message!"></input>
       <input
         type="hidden"
