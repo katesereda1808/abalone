@@ -109,6 +109,10 @@
     "lea_description": "Léa Chantreux is a young recruit passionate about accounting and management. Graduating with a BTS Accounting and Management in 2022, she joined our team at Abalone as an apprentice to perfect her training and graduate in December 2023 with a Degree in Accounting Revision, Accounting, and Management Control. Although she is still gaining experience, Léa is motivated and works hard to learn and contribute to the company's development and meet our clients' needs. Outside of work, she enjoys swimming and hiking.",
     "kimberley_description": "Kimberley Song has been our accounting assistant at Abalone since March 2023. Despite her young age, she has already gained solid experience in accounting through her professional internships. She completed an internship in a local company before joining our team. She brings to our team her motivation, seriousness, and rigor in work, as well as her good humor and contagious smile. We are delighted to count on her to support our accounting team and contribute to the growth of our company.",
     "i_agree_with": "I agree with your ",
-    "privacy_policy": "privacy policy"
+    "privacy_policy": "privacy policy",
+
+    "input_mandatory_field": "This field is mandatory",
+    "input_email_error": "Email is incorrect",
+    "input_phone_error": "Phone number in format +XXXXXXX or XXXXXXX"
 
 }

@@ -3,6 +3,7 @@
     top: 0;
     right: 0;
     cursor: pointer;
+    width: 47px;
 }
 .lang__chosen {
     padding: 3px;
@@ -23,5 +24,10 @@
     background-color: #00b3aa;
 }
 @media (max-width: 972px) {
-    
+    .lang {
+        width: 40px;
+    }
+    .lang__options {
+        top: unset;
+    }
 }

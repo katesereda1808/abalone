@@ -110,7 +110,11 @@
     "lea_description": "Léa Chantreux est une jeune recrue passionnée par la comptabilité et la gestion. Diplômée d'un BTS Comptabilité et Gestion en 2022, elle a rejoint notre équipe chez Abalone en alternance pour parfaire sa formation et être diplômée en décembre 2023 d’une Licence Révision Comptable, comptabilité et contrôle de gestion. Bien qu'elle soit encore en train d'acquérir de l'expérience, Léa est motivée et travaille dur pour apprendre et contribuer au développement de l'entreprise et répondre aux besoins de nos clients. En dehors du travail, elle aime nager et faire de la marche.",
     "kimberley_description": "Kimberley Song est notre aide comptable chez Abalone depuis mars 2023. Malgré son jeune âge, elle a déjà acquis une solide expérience en comptabilité grâce à ses stages professionnels. Elle a effectué un stage dans une entreprise locale avant de rejoindre notre équipe. Elle apporte à notre équipe sa motivation, son sérieux et sa rigueur dans le travail, ainsi que sa bonne humeur et son sourire contagieux. Nous sommes ravis de compter sur elle pour soutenir notre équipe comptable et contribuer à la croissance de notre entreprise.",
     "i_agree_with": "Je suis d'accord avec votre politique de ",
-    "privacy_policy": "protection des données"
+    "privacy_policy": "protection des données",
+
+    "input_mandatory_field": "Champ obligatoire",
+    "input_email_error": "L'adresse e-mail est incorrect",
+    "input_phone_error": "Le numéro de téléphone doit correspondre au format suivant: +XXXXXXX ou XXXXXXX"
 
 
 }

@@ -14,10 +14,6 @@ import {
 const Form = ({ btnText, options, selectPlaceholder }) => {
   const { t } = useTranslation();
   const [office, setOffice] = useState(null);
-  const TestButton = (e) => {
-    e.preventDefault();
-    console.log(office);
-  };
   const initialData = {
     name: "",
     email: "",
@@ -141,7 +137,7 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
             !errors.name ? "no_opacity" : ""
           }`}
         >
-          Name field is mandatory
+          {t("input_mandatory_field")}
         </div>
       </div>
 
@@ -159,7 +155,7 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
             !errors.email ? "no_opacity" : ""
           }`}
         >
-          email incorrect
+          {t("input_email_error")}
         </div>
       </div>
 
@@ -173,11 +169,11 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
           onBlur={handleBlur}
         />
         <div
-          className={`${styles.input_error} ${
+          className={`${styles.input_error} ${styles.long_error_message} ${
             !errors.phone ? "no_opacity" : ""
           }`}
         >
-          phone incorrect
+          {t("input_phone_error")}
         </div>
       </div>
 
@@ -195,7 +191,7 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
             !errors.message ? "no_opacity" : ""
           }`}
         >
-          this field is mandatory
+          {t("input_mandatory_field")}
         </div>
       </div>
 
@@ -218,7 +214,6 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
         disabledMode={disabled}
         text={btnText}
         options={options}
-        onClick={TestButton}
       />
     </form>
   );

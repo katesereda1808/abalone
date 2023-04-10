@@ -18,7 +18,7 @@
     font-size: 20px;
     font-weight: 500;
     resize: none;
-    
+    width: 100%;
 }
 .form__textarea {
     height: 80px;
@@ -29,11 +29,16 @@
 }
 .input_container {
     position: relative;
+    width: 100%;
 }
 .input_error {
     position: absolute;
     left: 3px;
     bottom: -25px;
+    font-size: 12px;
+}
+.long_error_message {
+    bottom: -35px;
 }
 @media (max-width: 800px) {
     .form {
@@ -48,5 +53,10 @@
     }
     .form__input {
         font-size: 18px;
+    }
+}
+@media (max-width: 330px) {
+    .long_error_message {
+        font-size: 10px;
     }
 }
