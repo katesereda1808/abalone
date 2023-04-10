@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import styles from "./Form.module.css";
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import ContactBtn from "../../atoms/ContactBtn/ContactBtn";
 import Dropdown from "../Dropdown/Dropdown";
 import { Link } from "react-router-dom";
@@ -19,34 +19,31 @@ const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
     console.log(office);
   };
   const initialData = {
-    name: '',
-    email: '',
-    phone: '',
-    message: ''
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
   };
   const [disabled, setDisabled] = useState(true);
   const [checkBox, setcheckBox] = useState(false);
   const [formData, setFormData] = useState(initialData);
   const chooseOffice = (option) => {
     setOffice(option);
-    setDisabled(!validateInput());
-  }
+    // setDisabled(!validateInput());
+  };
 
   const clickCheckBox = () => {
     setcheckBox(!checkBox);
     console.log(checkBox);
-  }
+  };
   const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
+    setFormData((prev) => {
+      return {
+        ...formData,
+        [e.target.name]: e.target.value,
+      };
     });
     console.log(formData);
-    // activateButton();
-    // if office is chosen
-    if (office && checkBox) {
-      setDisabled(!validateInput());
-    }
   };
   const getRegEx = (inputName) => {
     let regEx = null;
@@ -69,21 +66,27 @@ const Form = ({ btnText, btnColor, options, selectPlaceholder }) => {
         break;
     }
     return regEx;
-  }
-  const validateInput = () => {
+  };
+  const validateInput = useCallback(() => {
     for (let key in formData) {
       const input = formData[key];
       let regEx = getRegEx(`${key}`);
-      // console.log(key);
-      // console.log(regEx);
-      // console.log(input);
       console.log(key, regEx.test(input));
-      if(!regEx.test(input)){
-        return false
+      if (!regEx.test(input)) {
+        return false;
       }
-    };
+    }
     return true;
-  };
+  });
+  useEffect(() => {
+    if (office && checkBox) {
+      console.log('checkbox '+checkBox)
+      setDisabled((prevState) => {
+        console.log(prevState);
+        return !validateInput();
+      });
+    }
+  }, [formData, office, checkBox, validateInput]);
 
   return (
     <form
