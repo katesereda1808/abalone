@@ -38,6 +38,9 @@ a {
 .logo img {
     height: 100%;
 }
+.actual {
+     color: #00867F;
+}
 .mobile {
         display: none;
 }

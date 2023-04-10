@@ -16,8 +16,13 @@ const Header = () => {
         i18n.changeLanguage(lng);
         localStorage.setItem("lng", lng);
     };
+    const handleClick = (id) => {
+      setActualPage(id);
+    }
     const [lang, changeLang] = useState('fr');
     const [isOpen, setIsOpen] = useState(false);
+    const [actualPage, setActualPage] = useState('home');
+    const navigation = ["home", "about", "services", "contacts"];
     // if (localStorage.getItem("lng")){
     //   changeLang((localStorage.getItem("lng")));
     // }
@@ -30,8 +35,8 @@ const Header = () => {
             </Link>
             <nav className={styles.desktop}>
               <ul className={styles.navigation}>
-                <li>
-                  <Link to="/">{t("home")}</Link>
+                {/* <li>
+                  <Link to="/" >{t("home")}</Link>
                 </li>
                 <li>
                   <Link to="/about">{t("about")}</Link>
@@ -39,12 +44,20 @@ const Header = () => {
                 <li>
                   <Link to="/services">{t("services")}</Link>
                 </li>
-                {/* <li>
-                  <Link to="/partners">{t("partners")}</Link>
-                </li> */}
                 <li>
                   <Link to="/contacts">{t("contacts")}</Link>
-                </li>
+                </li> */}
+                {navigation.map((page)=>{
+                  return (
+                    <li
+                      key={page}
+                      onClick={() => handleClick(page)}
+                      className={actualPage === page? styles.actual: ''}
+                    >
+                      <Link to={page === 'home'? '/': `/${page}`}>{t(`${page}`)}</Link>
+                    </li>
+                  );
+                })}
               </ul>
             </nav>
             <button
