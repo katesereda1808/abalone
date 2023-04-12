@@ -36,8 +36,26 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
 
   const clickCheckBox = () => {
     setcheckBox(!checkBox);
-    console.log(checkBox);
+    activateBtn();
   };
+  const validateInput = useCallback(() => {
+    for (let key in formData) {
+      const input = formData[key];
+      let regEx = getRegEx(`${key}`);
+      if (!regEx.test(input)) {
+        return false;
+      }
+    }
+    return true;
+  }, [formData]);
+
+  const activateBtn = useCallback(() => {
+    if (office && checkBox) {
+      setDisabled(() => {
+        return !validateInput();
+      });
+    }
+  },[checkBox, office, validateInput]);
   const handleChange = (e) => {
     setFormData(() => {
       return {
@@ -47,13 +65,13 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
     });
     let regEx = getRegEx(e.target.name);
     if (regEx.test(e.target.value)) {
-      console.log("valid");
       setErrors({
         ...errors,
         [e.target.name]: false,
       });
+    } else {
+      activateBtn();
     }
-    console.log(formData);
   };
   const getRegEx = (inputName) => {
     let regEx = null;
@@ -77,40 +95,21 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
     }
     return regEx;
   };
-  const validateInput = useCallback(() => {
-    for (let key in formData) {
-      console.log('validate')
-      const input = formData[key];
-      let regEx = getRegEx(`${key}`);
-      console.log(key, regEx.test(input));
-      if (!regEx.test(input)) {
-        return false;
-      }
-    }
-    return true;
-  }, [formData]);
+  
 
   const handleBlur = (e) => {
-    console.log('blur')
       let regEx = getRegEx(`${e.target.name}`);
       if (!regEx.test(e.target.value)) {
-        console.log('invalid');
-        console.log(errors);
         setErrors({
           ...errors,
           [e.target.name]: true,
         });
       }
   }
-
+  
   useEffect(() => {
-    if (office && checkBox) {
-      console.log("checkbox " + checkBox);
-      setDisabled(() => {
-        return !validateInput();
-      });
-    }
-  }, [formData, office, checkBox, validateInput]);
+    activateBtn();
+  }, [formData, office, checkBox, validateInput, activateBtn]);
 
   return (
     <form

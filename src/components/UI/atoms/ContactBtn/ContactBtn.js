@@ -6,7 +6,6 @@ const ContactBtn = ({ text, btnColor, disabledMode }) => {
       className={`${styles.btn} ${
         btnColor === "white_btn" && styles.white_btn
       }`}
-      // {disabledMode?'disabled':''}
       disabled={disabledMode}
     >
       {text}

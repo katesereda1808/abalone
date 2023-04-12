@@ -15,11 +15,3 @@
     transform: translate(-50%, -50%);
     object-fit: cover;
 }
-/* @media (max-width: 400px) {
-    .photo {
-        height: 74vw;
-        width: 74vw;
-        min-height: 200px;
-        min-width: 200px;
-    }
-} */

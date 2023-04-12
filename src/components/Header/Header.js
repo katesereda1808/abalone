@@ -26,7 +26,7 @@ const Header = () => {
     // if (localStorage.getItem("lng")){
     //   changeLang((localStorage.getItem("lng")));
     // }
-    console.log(localStorage.getItem("lng"));
+    // console.log(localStorage.getItem("lng"));
       return (
         <div className={`${styles.header__container} container`}>
           <div className={styles.header}>
@@ -35,18 +35,6 @@ const Header = () => {
             </Link>
             <nav className={styles.desktop}>
               <ul className={styles.navigation}>
-                {/* <li>
-                  <Link to="/" >{t("home")}</Link>
-                </li>
-                <li>
-                  <Link to="/about">{t("about")}</Link>
-                </li>
-                <li>
-                  <Link to="/services">{t("services")}</Link>
-                </li>
-                <li>
-                  <Link to="/contacts">{t("contacts")}</Link>
-                </li> */}
                 {navigation.map((page)=>{
                   return (
                     <li

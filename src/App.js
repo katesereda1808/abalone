@@ -17,7 +17,6 @@ import Contacts from './components/pages/Contacts/Contacts';
 import Partners from './components/pages/Partners/Partners';
 import PrivacyPolicy from "./components/pages/PrivacyPolicy/PrivacyPolicy";
 import LegalInfo from "./components/pages/LegalInfo/LegalInfo";
-// import styles from "./styles.module.css";
 
 function App() {
   const { t, i18n } = useTranslation();
