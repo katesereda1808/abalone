@@ -7,7 +7,7 @@ import styles from "./Header.module.css";
 import logo from "../../assets/icons/logo.png";
 import { useState } from "react";
 import MobileMenu from "../UI/molecules/MobileMenu/MobileMenu";
-import ChangeLangBtn from "../UI/molecules/ChangeLngBtn/ChangeLangBtn";
+import ChangeLangBtn from "../UI/atoms/ChangeLngBtn/ChangeLangBtn";
 
 const Header = () => {
     const { t, i18n } = useTranslation();

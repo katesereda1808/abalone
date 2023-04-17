@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import styles from "./MobileMenu.module.css";
 import { Link } from "react-router-dom";
-import ChangeLangBtn from "../ChangeLngBtn/ChangeLangBtn";
+import ChangeLangBtn from "../../atoms/ChangeLngBtn/ChangeLangBtn";
 
 const MobileMenu = ({ setIsOpen, changeLangFunc, langState, languages }) => {
   const { t } = useTranslation();
