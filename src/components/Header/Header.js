@@ -14,7 +14,6 @@ const Header = () => {
     const handleChangeLng = (lng) => {
         changeLang(lng)
         i18n.changeLanguage(lng);
-        localStorage.setItem("lng", lng);
     };
     const handleClick = (id) => {
       setActualPage(id);
@@ -23,10 +22,7 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [actualPage, setActualPage] = useState('home');
     const navigation = ["home", "about", "services", "contacts"];
-    // if (localStorage.getItem("lng")){
-    //   changeLang((localStorage.getItem("lng")));
-    // }
-    // console.log(localStorage.getItem("lng"));
+
       return (
         <div className={`${styles.header__container} container`}>
           <div className={styles.header}>
