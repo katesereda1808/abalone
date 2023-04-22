@@ -4,10 +4,11 @@ import KimberleyImg from "../assets/images/Kimberley.jpg";
 import NellyImg from "../assets/images/Nelly.jpg";
 import AlizeeImg from "../assets/images/Alizee.jpg";
 import LeaImg from "../assets/images/Lea.jpg";
-import ArmandImg from "../assets/images/Armand.jpeg";
+import ArmandImg from "../assets/images/Armand.jpg";
 import IsabelleImg from "../assets/images/Isabelle.jpg";
 import NicoleImg from "../assets/images/Nicole.jpeg";
 import NoemieImg from "../assets/images/Noemie.jpg";
+import NassimImg from "../assets/images/Nassim.jpg";
 import WomanIcon from "../assets/images/woman_icon.png";
 
 export const LANGUAGES = [
@@ -130,6 +131,12 @@ export const PARTNERS_INFO = [
     imgUrl: NoemieImg,
     title: "consolidation_and_cross_functional_services",
     description: "noemie_description",
+  },
+  {
+    name: "Nassim",
+    imgUrl: NassimImg,
+    title: "IT_manager",
+    description: "nassim_description",
   },
 ];
 
