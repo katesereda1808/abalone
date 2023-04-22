@@ -195,7 +195,7 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
       </div>
 
       {/* // put thank u page */}
-      <input type="hidden" name="_next" value="https://abalone.bc"></input>
+      <input type="hidden" name="_next" value="https://www.abalone.nc"></input>
       <input type="hidden" name="_subject" value="New message!"></input>
       <input
         type="hidden"
@@ -209,11 +209,7 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
           {t("privacy_policy")}
         </Link>
       </label>
-      <ContactBtn
-        disabledMode={disabled}
-        text={btnText}
-        options={options}
-      />
+      <ContactBtn disabledMode={disabled} text={btnText} options={options} />
     </form>
   );
 };
