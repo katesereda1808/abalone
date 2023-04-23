@@ -205,7 +205,11 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
       <label>
         <input type="checkbox" checked={checkBox} onChange={clickCheckBox} />
         <p className={styles.label_text}>{t("i_agree_with")}</p>
-        <Link className="link" target="_blank" to="/privacy_policy">
+        <Link
+          className={`${styles.form__link} link`}
+          target="_blank"
+          to="/privacy_policy"
+        >
           {t("privacy_policy")}
         </Link>
       </label>

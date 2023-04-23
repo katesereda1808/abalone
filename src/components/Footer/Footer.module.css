@@ -42,7 +42,7 @@
     margin-top: 100px;
     max-width: 500px;
 }
-@media (max-width: 911px) {
+@media (max-width: 989px) {
     .nav,
     .links {
         width: 100%;
@@ -56,7 +56,7 @@
         padding-left: 0;
     }
 }
-@media (max-width: 650px) {
+@media (max-width: 778px) {
     .container {
         padding: 30px 20px;
     }

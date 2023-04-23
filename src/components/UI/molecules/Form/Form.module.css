@@ -31,6 +31,9 @@
     position: relative;
     width: 100%;
 }
+.form__link {
+    text-transform: lowercase;
+}
 .input_error {
     position: absolute;
     left: 3px;
