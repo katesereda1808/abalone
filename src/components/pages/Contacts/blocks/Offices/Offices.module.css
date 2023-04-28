@@ -44,7 +44,7 @@
 }
 @media (max-width: 1270px) {
     .offices_item__address {
-    height: auto;
+        height: auto;
     }
     .offices_item {
         width: 40%;
