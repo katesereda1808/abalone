@@ -6,7 +6,11 @@ import logo from "../../assets/icons/abalone_logo-2.jpeg";
 
 const Footer = () => {
   const { t } = useTranslation();
-
+  const handleClick = () => {
+    window.scrollTo({
+      top: 0
+    });
+  };
   return (
     <div className={`${styles.container} container`}>
       <div className={styles.content}>
@@ -17,25 +21,25 @@ const Footer = () => {
             </div>
             <nav className={styles.nav}>
               <ul className={styles.navigation}>
-                <li>
+                <li onClick={handleClick}>
                   <Link to="/">{t("home")}</Link>
                 </li>
-                <li>
+                <li onClick={handleClick}>
                   <Link to="/about">{t("about")}</Link>
                 </li>
-                <li>
+                <li onClick={handleClick}>
                   <Link to="/services">{t("services")}</Link>
                 </li>
-                {/* <li>
+                {/* <li onClick={handleClick}>
                   <Link to="/partners">{t("partners")}</Link>
                 </li> */}
-                <li>
+                <li onClick={handleClick}>
                   <Link to="/contacts">{t("contacts")}</Link>
                 </li>
-                <li>
+                <li onClick={handleClick}>
                   <Link to="/legal_information">{t("legal_info")}</Link>
                 </li>
-                <li>
+                <li onClick={handleClick}>
                   <Link target="_blank" to="/privacy_policy">
                     {t("privacy_policy")}
                   </Link>
