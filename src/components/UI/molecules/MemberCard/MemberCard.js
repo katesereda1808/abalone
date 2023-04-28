@@ -27,7 +27,7 @@ const MemberCard = ({ imgUrl, imgAlt, name, title, description, ShowDescription 
           <button onClick={ShowDescription} className={styles.chevron} />
         </summary>
         <div className={styles.description}>
-          <p style={{ whiteSpace: "pre-wrap" }}>{description}</p>
+          <p>{description}</p>
         </div>
       </details>
     </div>
