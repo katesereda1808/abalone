@@ -1,13 +1,26 @@
 import { useTranslation } from "react-i18next";
 import { LANGUAGES } from "../../constants";
 import {
-    Link
+    Link, useMatch, useResolvedPath
 } from "react-router-dom";
 import styles from "./Header.module.css";
 import logo from "../../assets/icons/logo.png";
 import { useState, useEffect } from "react";
 import MobileMenu from "../UI/molecules/MobileMenu/MobileMenu";
 import ChangeLangBtn from "../UI/atoms/ChangeLngBtn/ChangeLangBtn";
+
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to);
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+
+  return (
+    <li className={isActive ? styles.actual : ""}>
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
+  );
+}
 
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -16,13 +29,9 @@ const Header = () => {
     i18n.changeLanguage(lng);
     localStorage.setItem("lng", lng);
   };
-  const handleClick = (id) => {
-    setActualPage(id);
-  };
 
   const [lang, changeLang] = useState("fr");
   const [isOpen, setIsOpen] = useState(false);
-  const [actualPage, setActualPage] = useState("home");
   const navigation = ["home", "about", "services", "contacts"];
   
   useEffect(() => {
@@ -41,14 +50,10 @@ const Header = () => {
           <ul className={styles.navigation}>
             {navigation.map((page) => {
               return (
-                <li
-                  key={page}
-                  onClick={() => handleClick(page)}
-                  className={actualPage === page ? styles.actual : ""}
-                >
-                  <Link to={page === "home" ? "/" : `/${page}`}>
+                <li>
+                  <CustomLink to={page === "home" ? "/" : `/${page}`}>
                     {t(`${page}`)}
-                  </Link>
+                  </CustomLink>
                 </li>
               );
             })}
