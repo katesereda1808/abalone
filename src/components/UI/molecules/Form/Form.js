@@ -42,8 +42,10 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
     for (let key in formData) {
       const input = formData[key];
       let regEx = getRegEx(`${key}`);
-      if (!regEx.test(input)) {
-        return false;
+      if (regEx){
+        if (!regEx.test(input)) {
+          return false;
+        }
       }
     }
     return true;
@@ -56,6 +58,7 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
       });
     }
   },[checkBox, office, validateInput]);
+
   const handleChange = (e) => {
     setFormData(() => {
       return {
@@ -64,14 +67,16 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
       };
     });
     let regEx = getRegEx(e.target.name);
-    if (regEx.test(e.target.value)) {
-      setErrors({
-        ...errors,
-        [e.target.name]: false,
-      });
+    if (regEx){
+      if (regEx.test(e.target.value)) {
+        setErrors({
+          ...errors,
+          [e.target.name]: false,
+        });
+      }
     } else {
-      activateBtn();
-    }
+        activateBtn();
+      }
   };
   const getRegEx = (inputName) => {
     let regEx = null;
@@ -89,8 +94,7 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
         regEx = REGPHONE;
         break;
       default:
-        // not empty
-        regEx = REGNOTEMPTY;
+        regEx = '';
         break;
     }
     return regEx;
@@ -99,11 +103,13 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
 
   const handleBlur = (e) => {
       let regEx = getRegEx(`${e.target.name}`);
-      if (!regEx.test(e.target.value)) {
-        setErrors({
-          ...errors,
-          [e.target.name]: true,
-        });
+      if(regEx){
+        if (!regEx.test(e.target.value)) {
+          setErrors({
+            ...errors,
+            [e.target.name]: true,
+          });
+        }
       }
   }
   

@@ -2,6 +2,7 @@ import styles from "./MemberCard.module.css";
 import PhotoCircle from "../../atoms/PhotoCircle/PhotoCircle";
 
 const MemberCard = ({ imgUrl, imgAlt, name, title, description, ShowDescription }) => {
+  console.log(description)
   return (
     <div className={styles.team_member_card}>
       <div className={styles.card_top}>
@@ -12,7 +13,11 @@ const MemberCard = ({ imgUrl, imgAlt, name, title, description, ShowDescription 
         )}
         <div className={styles.card_content}>
           <div className={styles.name}>{name}</div>
-          <div className={`${title.length > 60 && styles.long_title} ${styles.title}`}>
+          <div
+            className={`${title.length > 60 && styles.long_title} ${
+              styles.title
+            }`}
+          >
             {title}
           </div>
         </div>
@@ -21,7 +26,9 @@ const MemberCard = ({ imgUrl, imgAlt, name, title, description, ShowDescription 
         <summary className={styles.summary}>
           <button onClick={ShowDescription} className={styles.chevron} />
         </summary>
-        <div className={styles.description}>{description}</div>
+        <div className={styles.description}>
+          <p style={{ whiteSpace: "pre-wrap" }}>{description}</p>
+        </div>
       </details>
     </div>
   );
