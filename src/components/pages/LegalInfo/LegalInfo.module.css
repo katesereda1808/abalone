@@ -1,5 +1,6 @@
 .container {
     padding: 60px 100px;
+    white-space: pre-wrap;
 }
 .text_box ul {
     list-style: disc;

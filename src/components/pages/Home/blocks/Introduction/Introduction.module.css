@@ -6,6 +6,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .content {
     background-color: hsla(177, 100%, 26%, 0.7);
@@ -17,6 +18,12 @@
     clip-path: polygon(68% 0, 100% 0, 100% 100%, 21% 100%);
     padding: 40px;
     /* justify-content: center; */
+}
+.source_attribute {
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    font-size: 12px;
 }
 /* .title {
     font-family: 'Montserrat', sans-serif;
@@ -77,6 +84,9 @@
     .details {
         font-size: 30px;
     }
+    .source_attribute {
+        font-size: 10px;
+    }
     /* .logo_text {
         height: 40px;
         width: auto;
@@ -95,5 +105,8 @@
     }
     .details {
         font-size: 20px;
+    }
+    .source_attribute {
+        font-size: 8px;
     }
 }
