@@ -67,7 +67,10 @@
     height: 20px;
     cursor: pointer;
 }
-
+.summary::-webkit-details-marker,
+.summary::marker {
+    display: none;
+}
 .details[open] .chevron {
     transform: rotate(180deg);
 }
