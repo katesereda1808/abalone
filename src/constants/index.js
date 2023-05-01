@@ -156,7 +156,7 @@ export const OFFICES = [
   {
     name: "La Foa",
     address: "Village, 183, avenue Charles de Gaulle, 98880 La Foa",
-    phone: "+687 737 389",
+    phone: "+687 73 73 89",
     email: "lafoa@abalone.nc",
   },
   // {
