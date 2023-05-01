@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
         <div className={styles.legal_address}>
           Société d’expertise comptable et de commissariat aux comptes SARL au
-          capital de 100 000 XPF • RCS Nouméa B 1 470 261 • + 687 23 06 00 •
+          capital de 100 000 XPF • RCS Nouméa B 1 470 251 • + 687 23 06 00 •
           abalone@abalone.nc • Isabelle Cecchini • + 687 78 10 03 •
           ic@abalone.nc •
         </div>

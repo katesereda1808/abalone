@@ -144,7 +144,7 @@ export const OFFICES = [
   {
     name: "Boulouparis",
     address: "Village, Lot n°213 RT1, 98812 Boulouparis",
-    phone: "+687 23 06 06",
+    phone: "+687 73 73 89",
     email: "boulouparis@abalone.nc",
   },
   {
