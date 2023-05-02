@@ -25,9 +25,9 @@ function CustomLink({ to, children, ...props }) {
 const Header = () => {
   const { t, i18n } = useTranslation();
   const handleChangeLng = (lng) => {
+    localStorage.setItem("lng", lng);
     changeLang(lng);
     i18n.changeLanguage(lng);
-    localStorage.setItem("lng", lng);
   };
 
   const [lang, changeLang] = useState("fr");
@@ -35,6 +35,7 @@ const Header = () => {
   const navigation = ["home", "about", "services", "contacts"];
   
   useEffect(() => {
+    console.log(localStorage.getItem("lng"));
     if (localStorage.getItem("lng")) {
       changeLang(localStorage.getItem("lng"));
     }
@@ -50,11 +51,12 @@ const Header = () => {
           <ul className={styles.navigation}>
             {navigation.map((page) => {
               return (
-                <li>
-                  <CustomLink to={page === "home" ? "/" : `/${page}`}>
+                  <CustomLink
+                    key={page}
+                    to={page === "home" ? "/" : `/${page}`}
+                  >
                     {t(`${page}`)}
                   </CustomLink>
-                </li>
               );
             })}
           </ul>
