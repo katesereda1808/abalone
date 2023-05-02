@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import styles from "./Header.module.css";
 import logo from "../../assets/icons/logo.png";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import MobileMenu from "../UI/molecules/MobileMenu/MobileMenu";
 import ChangeLangBtn from "../UI/atoms/ChangeLngBtn/ChangeLangBtn";
 
@@ -24,11 +24,11 @@ function CustomLink({ to, children, ...props }) {
 
 const Header = () => {
   const { t, i18n } = useTranslation();
-  const handleChangeLng = (lng) => {
+  const handleChangeLng = useCallback((lng) => {
     localStorage.setItem("lng", lng);
     changeLang(lng);
     i18n.changeLanguage(lng);
-  };
+  });
 
   const [lang, changeLang] = useState("fr");
   const [isOpen, setIsOpen] = useState(false);
@@ -38,8 +38,10 @@ const Header = () => {
     console.log(localStorage.getItem("lng"));
     if (localStorage.getItem("lng")) {
       changeLang(localStorage.getItem("lng"));
+    } else {
+      handleChangeLng(lang);
     }
-  }, []);
+  }, [handleChangeLng, lang]);
 
   return (
     <div className={`${styles.header__container} container`}>
