@@ -13,7 +13,6 @@ const Team = () => {
   const { t } = useTranslation();
   const [shown, setShown] = useState(false);
   const ShowDescription = () => {
-    console.log("show");
     setShown(!shown)
   };
   return (

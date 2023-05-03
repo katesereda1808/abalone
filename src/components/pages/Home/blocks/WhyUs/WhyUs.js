@@ -8,7 +8,6 @@ const WhyUs = () => {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        {/* <div className={styles.heading}>{t("our_goal")}</div> */}
         <div className={styles.why_us__items}>
           <div className={styles.why_us__item}>
             <div className={styles.why_us__icon}>

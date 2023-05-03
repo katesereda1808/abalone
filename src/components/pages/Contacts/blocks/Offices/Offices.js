@@ -6,9 +6,6 @@ const Offices = () => {
   
   return (
     <div className={styles.container}>
-      {/* <div className={`background_filter ${styles.form_container}`}>
-        
-      </div> */}
           {OFFICES.map((office) => {
             return (
               <div className={styles.offices_item} key={office.name}>

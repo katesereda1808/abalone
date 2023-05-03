@@ -2,7 +2,6 @@ import styles from "./MemberCard.module.css";
 import PhotoCircle from "../../atoms/PhotoCircle/PhotoCircle";
 
 const MemberCard = ({ imgUrl, imgAlt, name, title, description, ShowDescription }) => {
-  console.log(description)
   return (
     <div className={styles.team_member_card}>
       <div className={styles.card_top}>

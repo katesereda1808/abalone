@@ -28,7 +28,7 @@ const Header = () => {
     localStorage.setItem("lng", lng);
     changeLang(lng);
     i18n.changeLanguage(lng);
-  });
+  }, [i18n]);
 
   const [lang, changeLang] = useState("fr");
   const [isOpen, setIsOpen] = useState(false);

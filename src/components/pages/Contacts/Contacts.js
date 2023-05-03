@@ -7,9 +7,6 @@ import contacts_form_background from "../../../assets/images/contacts_contact_fo
 const Contacts = () => {
     const { t, i18n } = useTranslation();
     return (
-      // <h1>
-      //     {t("contacts")}
-      // </h1>
       <div className={`${styles.container} container`}>
         <ContactBlock backgroundImg={contacts_form_background} />
         <Offices />
