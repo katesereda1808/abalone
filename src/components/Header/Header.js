@@ -35,7 +35,6 @@ const Header = () => {
   const navigation = ["home", "about", "services", "contacts"];
   
   useEffect(() => {
-    console.log(localStorage.getItem("lng"));
     if (localStorage.getItem("lng")) {
       changeLang(localStorage.getItem("lng"));
     } else {
