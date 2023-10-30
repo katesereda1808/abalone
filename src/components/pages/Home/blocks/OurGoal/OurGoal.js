@@ -4,6 +4,7 @@ import styles from './OurGoal.module.css';
 
 const OurGoal = () => {
     const { t } = useTranslation();
+
     return (
         <div className={styles.container}>
             <div className={styles.content}>

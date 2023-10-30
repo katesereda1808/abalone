@@ -4,6 +4,7 @@ import styles from './PrivacyPolicy.module.css';
 
 const PrivacyPolicy = () => {
     const { t } = useTranslation();
+
     return (
         <div className={`${styles.container} container`}>
             <div className={styles.text_box}>

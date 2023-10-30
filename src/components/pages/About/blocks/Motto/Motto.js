@@ -4,6 +4,7 @@ import styles from './Motto.module.css';
 
 const Motto = () => {
     const { t } = useTranslation();
+
     return (
         <div className={styles.container}>
             <div className={styles.our_motto}>

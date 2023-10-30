@@ -4,6 +4,7 @@ import styles from './LegalInfo.module.css';
 
 const LegalInfo = () => {
     const { t } = useTranslation();
+
     return (
         <div className={`${styles.container} container`}>
             <div className={styles.text_box}>

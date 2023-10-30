@@ -4,6 +4,7 @@ import styles from './Force.module.css';
 
 const Force = () => {
     const { t } = useTranslation();
+
     return (
         <div className={styles.container}>
             <div className={styles.background_filter}>

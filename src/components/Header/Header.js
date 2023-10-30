@@ -1,26 +1,14 @@
 import { useTranslation } from 'react-i18next';
-import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useState, useEffect, useCallback } from 'react';
 
+import CustomLink from './Link';
 import logo from '../../assets/icons/logo.png';
 import { LANGUAGES } from '../../constants';
 import MobileMenu from '../UI/molecules/MobileMenu/MobileMenu';
 import ChangeLangBtn from '../UI/atoms/ChangeLngBtn/ChangeLangBtn';
 
 import styles from './Header.module.css';
-
-function CustomLink({ to, children, ...props }) {
-    const resolvedPath = useResolvedPath(to);
-    const isActive = useMatch({ path: resolvedPath.pathname, end: true });
-
-    return (
-        <li className={isActive ? styles.actual : ''}>
-            <Link to={to} {...props}>
-                {children}
-            </Link>
-        </li>
-    );
-}
 
 const Header = () => {
     const { t, i18n } = useTranslation();

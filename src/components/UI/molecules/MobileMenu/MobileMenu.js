@@ -7,6 +7,7 @@ import styles from './MobileMenu.module.css';
 
 const MobileMenu = ({ setIsOpen, changeLangFunc, langState, languages }) => {
     const { t } = useTranslation();
+
     return (
         <div className={`${styles.container} container`}>
             <header className={styles.menu_header}>
@@ -35,9 +36,6 @@ const MobileMenu = ({ setIsOpen, changeLangFunc, langState, languages }) => {
                             {t('services')}
                         </Link>
                     </li>
-                    {/* <li>
-                  <Link to="/partners">{t("partners")}</Link>
-                </li> */}
                     <li>
                         <Link to="/contacts" onClick={() => setIsOpen(false)}>
                             {t('contacts')}

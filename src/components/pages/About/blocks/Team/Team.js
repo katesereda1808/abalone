@@ -12,6 +12,7 @@ const Team = () => {
     const ShowDescription = () => {
         setShown(!shown);
     };
+
     return (
         <div className={styles.container}>
             <h2 className={styles.page_title}>{t('team_members')}</h2>

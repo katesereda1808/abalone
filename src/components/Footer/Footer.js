@@ -12,6 +12,7 @@ const Footer = () => {
             top: 0,
         });
     };
+
     return (
         <div className={`${styles.container} container`}>
             <div className={styles.content}>

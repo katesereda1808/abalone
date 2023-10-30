@@ -2,9 +2,9 @@ import { useTranslation } from 'react-i18next';
 import { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 
+import { getRegEx } from '../../../../utils/utils';
 import ContactBtn from '../../atoms/ContactBtn/ContactBtn';
 import Dropdown from '../Dropdown/Dropdown';
-import { REGEMAIL, REGLETTERS, REGPHONE } from '../../../../constants';
 
 import styles from './Form.module.css';
 
@@ -74,27 +74,6 @@ const Form = ({ btnText, options, selectPlaceholder }) => {
         } else {
             activateBtn();
         }
-    };
-    const getRegEx = (inputName) => {
-        let regEx = null;
-        switch (inputName) {
-            case 'name':
-                // only letters
-                regEx = REGLETTERS;
-                break;
-            case 'email':
-                // validation
-                regEx = REGEMAIL;
-                break;
-            case 'phone':
-                // min and max of numbers
-                regEx = REGPHONE;
-                break;
-            default:
-                regEx = '';
-                break;
-        }
-        return regEx;
     };
 
     const handleBlur = (e) => {

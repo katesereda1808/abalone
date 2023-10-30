@@ -24,4 +24,5 @@ const CompanyStory = () => {
         </div>
     );
 };
+
 export default CompanyStory;
