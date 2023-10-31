@@ -10,7 +10,7 @@ ol {
 }
 
 ul {
-	list-style: none;
+    list-style: none;
 }
 
 body,
@@ -63,28 +63,29 @@ select {
 
 :focus,
 :active {
-	outline: none;
+    outline: none;
 }
 
 a:focus,
 a:active {
-	outline: none;
+    outline: none;
 }
 
 button,
-input[type="checkbox"] {
-	cursor: pointer;
+input[type='checkbox'] {
+    cursor: pointer;
 }
 
 button::-moz-focus-inner {
-	padding:0;
-    border:0;
+    padding: 0;
+    border: 0;
 }
 
-a, a:visited {
-	text-decoration: none;
+a,
+a:visited {
+    text-decoration: none;
 }
 
 a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }

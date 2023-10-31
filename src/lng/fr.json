@@ -22,22 +22,18 @@
     "why_us_3_heading": "Mesurez votre performance",
     "why_us_3_text": "Utilisez des indicateurs précis pour disposer d'outils de gestion efficaces pour prendre des décisions.",
 
-    "call_to_action":"Gagnez du temps avec notre expertise",
+    "call_to_action": "Gagnez du temps avec notre expertise",
     "contact_btn_text": "contactez-nous",
     "choose_office": "Сhoisissez un bureau",
 
-
-
     "director": "Expert-comptable diplômée et commissaire aux comptes inscrite, interviens dans les domaines comptable, juridique, fiscal, et est spécialisée en consolidation des comptes.",
     "company_story": "Isabelle Cecchini est une experte-comptable et commissaire aux comptes de la société Abalone, née en 1970. Elle a obtenu son Diplôme d'Expertise-Comptable (DEC) à l'ESLSCA Paris et compte plus de 30 ans d'expertise dans le domaine de la comptabilité, dont plus de 20 ans à Nouméa. Elle a exercé son métier sur 3 continents différents, notamment en France métropolitaine, à Nouméa et à Djibouti. Ancienne associée gérante d'un autre cabinet comptable sur Ducos pendant près de 10 ans, Isabelle est une professionnelle assidue et à l'écoute de ses clients. Elle apporte une expertise précieuse à la société Abalone, en veillant notamment à la qualité de la gestion comptable et financière.",
-    "our_motto":"Notre devise",
-    "motto_1":"l'écoute &",
-    "motto_2":"la disponibilité",
+    "our_motto": "Notre devise",
+    "motto_1": "l'écoute &",
+    "motto_2": "la disponibilité",
 
-    "our_force":"Notre force:  une équipe dynamique et soudée, très impliquée dans l'activité du bureau.",
-    "why_team":"La réussite de notre partenariat est liée à une profonde entente entre les membres de l'équipe, une ambiance de travail agréable et positive alliée à un professionnalisme rigoureux et une organisation informatique intégrée, accessible et communicative.",
-
-
+    "our_force": "Notre force:  une équipe dynamique et soudée, très impliquée dans l'activité du bureau.",
+    "why_team": "La réussite de notre partenariat est liée à une profonde entente entre les membres de l'équipe, une ambiance de travail agréable et positive alliée à un professionnalisme rigoureux et une organisation informatique intégrée, accessible et communicative.",
 
     "services_heading": "NOS SERVICES",
 
@@ -47,26 +43,22 @@
     "evaluation": "Evaluation",
     "forecasting": "Prévisionnel",
 
-
     "consolidation_of_accounts": "Consolidation de comptes",
     "harmonization_of_accounting_plans": "Harmonisation des plans comptables",
     "preparation_of_consolidation_packages": "Préparation des liasses de consolidation",
     "restatement_and_elimination_entries": "Ecritures de retraitement et d’élimination",
     "establishment_of_consolidated_financial_statements": "Etablissement des Etas financiers consolidés",
 
-
     "audit_statutory_audit_and_related_missions": "Audit, commissariat aux comptes, et missions connexes",
     "contractual_audit_of_accounts": "Audit contractuel des comptes",
     "audit_of_internal_control_procedures": "Audit des procédures de contrôle interne",
     "legal_control_of_accounts": "Contrôle légal des comptes",
-
 
     "legal_and_consulting": "Juridique & Conseil",
     "creation_of_companies": "Création de société",
     "statutory_and_non_statutory_changes": "Modifications statutaires ou non",
     "mergers_and_restructurings": "Fusions & Restructurations",
     "mothballing_and_liquidations": "Mise en sommeil & liquidations",
-
 
     "fiscal_and_social": "Fiscal & Social",
     "tax_returns": "Liasses fiscales",
@@ -78,9 +70,6 @@
     "implementation_and_follow_up_of_operational_cost_accounting": "Mise en place et suivi de la comptabilité analytique opérationnelle",
     "all_types_of_accounting_assistance": "Tout type d’assistance comptable",
     "customized_training": "Formations sur mesure",
-
-
-
 
     "training_and_coaching_services": "Nous pouvons également vous proposer des missions de formation et de coaching dans le domaine de la comptabilité, de la consolidation et de la fiscalité.",
 
@@ -97,7 +86,7 @@
     "IT_manager": "Responsable informatique",
     "confirmed_accountant": "Comptable confirmée",
     "consolidation_and_cross_functional_services": "Consolidation et services transverses",
-    
+
     "isabelle_description": "\tIsabelle Cecchini est  expert-comptable et commissaire aux comptes de la société Abalone. Diplômée d’une école de commerce puis du Diplôme d'Expertise-Comptable (DEC) , elle compte plus de 30 ans d'expertise dans le domaine de la comptabilité et de la consolidation des comptes, dont plus de 20 ans à Nouméa. \n\n\tElle a exercé son métier sur 3 continents différents, notamment en France métropolitaine, à Nouméa et à Djibouti. Ancienne associée gérante d'un autre cabinet comptable sur Ducos pendant près de 10 ans, Isabelle est une professionnelle assidue et à l'écoute de ses clients. Elle apporte une expertise précieuse à la société Abalone, en veillant notamment à la qualité de la gestion comptable et financière. \n\n\tEn dehors du travail, Isabelle aime les voyages, mais sa famille reste sa priorité.",
     "nicole_description": "\tNicole Le Pen est une professionnelle de la comptabilité avec plus de 39 ans d’expérience ; elle répond aux besoins ponctuels de nos clients qui souhaitent une réactivité et une autonomie totale pour une intervention sur une période déterminée. Sa longue expérience lui permet de faire face à toutes les situations et de trouver des solutions adaptées pour répondre aux besoins de ses clients. \n\n\tNicole complète aujourd’hui sa palette de compétences par une formation de mandataire judiciaire protection des majeurs qu’elle valide en 2023. \n\n\tEn dehors du travail, Nicole organise son quotidien autour de sa famille; elle aime les voyages, les arts et la littérature.",
     "armand_description": "\tArmand Cecchini est le responsable technique, organisation, logistique et entretien des locaux chez Abalone. Il a plus de 23 ans d'expérience dans la construction, la rénovation et le bâtiment, et assure le bon fonctionnement des opérations quotidiennes de l'entreprise. Son expertise en matière d'organisation, de logistique et d'entretien des locaux garantit le bon fonctionnement des locaux de l'entreprise et qu'ils répondent aux besoins de l'équipe. \n\n\tArmand est essentiel pour maintenir une infrastructure solide et efficace qui permet à l'entreprise de prospérer.",
@@ -117,7 +106,6 @@
     "input_mandatory_field": "Champ obligatoire",
     "input_email_error": "L'adresse e-mail est incorrect",
     "input_phone_error": "Le numéro de téléphone doit correspondre au format suivant: +XXXXXX ou XXXXXX",
-
 
     "legal_notice": "Mentions légales",
     "legal_info_intro": "En naviguant sur https://www.abalone.nc/, ci-après « le Site », vous reconnaissez, en votre qualité d’utilisateur, ci-après désigné par « vous » ou « l’Internaute », connaître les conditions d’usage figurant ci-après, ainsi que les conditions spécifiques relatives à certains services du Site, et en accepter les termes.\n\n",
@@ -146,7 +134,7 @@
     "cookies_audience": "Cookies de mesure d’audience:  \tRefuser / Accepter\n",
     "cookies_audience_text": "Google Analytics\n\n",
     "cookies_advertisement": "Cookies publicitaires\n",
-    "cookies_advertisement_text":"Bing \nGoogle Ads\n\n",
+    "cookies_advertisement_text": "Bing \nGoogle Ads\n\n",
     "cookies_social_media": "Cookies des réseaux sociaux\n",
     "cookies_social_media_text": "Facebook \nTwitter\n\n",
     "cookies_multimedia": "Cookies multimédias\n",
@@ -159,11 +147,9 @@
     "cookies_refusal": "Attention:  Abalone vous rappelle que la prise en compte de votre refus d’installer un cookie repose sur le dépôt d’un cookie de refus. Par conséquent, si vous désactivez l’ensemble des cookies de votre terminal ou si vous changez de terminal, nous ne saurons plus en mesure d’identifier que vous avez choisi cette option.\n\n",
     "applicable_law_list_4": "2.3.7.1 Module de gestion des cookies \nUn module vous permet de choisir les cookies que vous souhaitez accepter et ceux que vous souhaitez refuser sur ce site. \n\nÀ tout moment, en cliquant ici vous pourrez accéder au module et modifier vos préférences. \n\n2.3.7.2 Paramétrages du navigateur \nSi la plupart des navigateurs sont paramétrés par défaut et acceptent l’installation de cookies, vous avez la possibilité, si vous le souhaitez, de choisir d’accepter tous les cookies, de les rejeter systématiquement ou encore de choisir ceux que vous acceptez selon leur émetteur. \n\nVous pouvez également régulièrement supprimer les cookies de votre terminal via votre navigateur. \n\nN’oubliez pas cependant de paramétrer l’ensemble des navigateurs de vos différents terminaux (tablettes, smartphones, ordinateurs…). \n\nPour la gestion des cookies et de vos choix, la configuration de chaque navigateur est différente. Elle est décrite dans le menu d’aide de votre navigateur, qui vous permettra de savoir de quelle manière modifier vos souhaits en matière de cookies. A titre d’exemple:  \n– pour Microsoft Edge™:  https://support.microsoft.com/fr-fr/help/4468242/microsoft-edge-browsing-data-and-privacy; \n– pour Internet Explorer:  http://windows.microsoft.com/fr-FR/windows-vista/Block-or-allow-cookies ; \n– pour Safari™:  https://support.apple.com/fr-fr/safari ; \n– pour Chrome™: http://support.google.com/chrome/bin/answer.py?hl=fr&hlrm=en&answer=95647; \n– pour Firefox™:  http://support.mozilla.org/fr/kb/Activer%20et%20d%C3%A9sactiver%20les%20cookies ; \n– pour Opera™:  http://help.opera.com/Windows/10.20/fr/cookies.html. \n\nNous attirons toutefois votre attention sur le fait qu’en paramétrant votre navigateur pour refuser les cookies, certaines fonctionnalités, pages, espaces du Site ne seront pas accessibles, ce dont nous ne saurions être responsables.\n\n2.3.7.3 Modules d’opposition d’éditeurs \nVous pouvez choisir de désactiver certains cookies tiers, en vous rendant directement sur la page de l’émetteur. Ainsi:  \n\n• pour désactiver les cookies Google Analytics, rendez-vous sur la page:  https://tools.google.com/dlpage/gaoptout?hl=fr \n\n2.3.7.4 Plateformes interprofessionnelles d’opposition Plusieurs plateformes de professionnels de la publicité vous offrent également la possibilité de refuser ou d’accepter des cookies utilisés par les sociétés qui en sont adhérentes. Ces mécanismes centralisés ne bloquent pas l’affichage des publicités mais empêchent seulement l’installation de cookies permettant d’adapter les publicités à vos centres d’intérêts. \n\nVous pouvez par exemple vous rendre sur le site www.youronlinechoices.com afin d’interdire l’installation de ces cookies sur votre terminal. Ce site est proposé par les professionnels de la publicité digitale regroupés au sein de l’association européenne EDAA (European Digital Advertising Alliance) et géré en France par l’Interactive Advertising Bureau France. \n\nVous pourrez ainsi connaître les entreprises inscrites à cette plate-forme et qui vous offrent la possibilité de refuser ou d’accepter les cookies utilisés par ces entreprises pour adapter à vos informations de navigation les publicités susceptibles d’être affichées sur votre terminal:  http://www.youronlinechoices.com/fr/controler-ses-cookies/. \n\nCette plateforme européenne est partagée par des centaines de professionnels de la publicité sur Internet et constitue une interface centralisée vous permettant d’exprimer votre refus ou votre acceptation des cookies susceptibles d’être utilisés afin d’adapter à la navigation de votre terminal les publicités susceptibles d’y être affichées. \n\n2.3.8 Protection des données personnelles \nDans le cadre de l’utilisation des cookies telle que décrite dans le présent document, Abalone sera susceptible de traiter des données à caractère personnel vous concernant, en tant que responsable du traitement. \n\nLes cookies tiers sur le Site dépendent de responsables de traitement externes, tels que, qui sont susceptibles, si vous acceptez ces cookies, de traiter des données à caractère personnel vous concernant. \n\nL’émission et l’utilisation de ces cookies par des tiers sont soumises à leur propre politique de protection de la vie privée. Pour plus d’information concernant ces traitements, vous pouvez vous reporter aux politiques de confidentialité de \nLes données collectées sont indispensables pour atteindre les objectifs poursuivis par chaque cookie. Elles sont uniquement destinées aux services habilités de Abalone Ft/ou de l’entreprise émettrice des cookies tiers. \nLes données à caractère personnel collectées via les cookies ne sont jamais conservées plus longtemps que nécessaire pour atteindre la finalité du cookie et, en tout état de cause, pas plus de 13 mois. \nPour de plus amples informations, notamment sur l’exercice de vos droits, reportez-vous à notre Politique de protection des données personnelles. \nConformément au règlement 2016/679 du 27 avril 2016, vous disposez d’un droit d’interrogation, d’accès, de rectification, d’effacement, de limitation et de portabilité relativement à l’ensemble des données. \nVous disposez d’un droit de vous opposer à tout moment, pour des raisons tenant à votre situation particulière, à un traitement des données personnelles ayant comme base juridique l’intérêt légitime d’Abalone ainsi que d’un droit d’opposition à la prospection commerciale. \nVous disposez également du droit de formuler des directives spécifiques et générales concernant la conservation, l’effacement et la communication des données post-mortem vous concernant. En ce qui concerne les directives générales, elles devront être adressées à un tiers qui sera désigné par Décret. \nVous disposez également du droit de retirer votre consentement à tout moment (le retrait de votre consentement sera sans incidence sur la licéité du traitement réalisé avant le retrait du consentement). \n\nCes droits peuvent être exercés par courrier électronique à l’adresse abalone@abalone.nc ou par courrier à l’adresse suivante ABALONE 33 route de la Baie des Dames - BP 13563 - 98803 NOUMEA CEDEX, accompagné de tout document justifiant de mon identité. En cas de doute sur votre identité, Abalone pourra possiblement demander des informations supplémentaires apparaissant nécessaires, y compris la photocopie d’un titre d’identité portant votre signature. \n\nEn cas de litige, il est possible de saisir la Commission nationale de l’informatique et des libertés, autorité de contrôle compétente, à l’adresse suivante:  3 Place de Fontenoy – TSA 80715 – 75334 PARIS CEDEX 07. \n\nPour de plus amples informations, reportez-vous à la Politique de protection des données personnelles. \n\n[1] https://www.cnil.fr/fr/solutions-pour-la-mesure-daudience ; https://www.cnil.fr/fr/solutions-pour-la-publicite ; https://www.cnil.fr/fr/solutions-pour-les-boutons-sociaux. \n\n[2] CE, 6 juin 2018 Editions Croque Futur / Cnil \n\n[JOC1]Il est actuellement indiqué sur le site que Weebly est l’éditeur. Cette information doit être vérifiée.",
 
-
-
     "data_protection": "Protection des données",
     "data_intro": "1.  Introduction",
-    "data_intro_text":"1.  Les informations suivantes vous sont communiquées afin que vous puissiez prendre connaissance des engagements en matière de protection des données à caractère personnel de la société Abalone, RCS 1.470.251 qui agit en tant que responsable du traitement pour les traitements de données à caractère personnel évoqués dans le présent document. \n2. La société Abalone s’est engagée dans une politique de respect et de maintien de normes élevées en matière de déontologie et notamment de protection des données à caractère personnel. \n3. La société Abalone met en œuvre des traitements de données à caractère personnel en tant que responsable du traitement. L’identité et les coordonnées de la société Abalone sont précisées sur le site https://www.abalone.nc/ à la rubrique « mentions légales ». \n4. La présente politique de protection des données personnelles a pour objectif de vous informer sur la manière dont ces données sont traitées par la société Abalone et sur l’étendue de vos droits. \n5. Elle pourra être amenée à évoluer en fonction du contexte légal et réglementaire applicable.",
+    "data_intro_text": "1.  Les informations suivantes vous sont communiquées afin que vous puissiez prendre connaissance des engagements en matière de protection des données à caractère personnel de la société Abalone, RCS 1.470.251 qui agit en tant que responsable du traitement pour les traitements de données à caractère personnel évoqués dans le présent document. \n2. La société Abalone s’est engagée dans une politique de respect et de maintien de normes élevées en matière de déontologie et notamment de protection des données à caractère personnel. \n3. La société Abalone met en œuvre des traitements de données à caractère personnel en tant que responsable du traitement. L’identité et les coordonnées de la société Abalone sont précisées sur le site https://www.abalone.nc/ à la rubrique « mentions légales ». \n4. La présente politique de protection des données personnelles a pour objectif de vous informer sur la manière dont ces données sont traitées par la société Abalone et sur l’étendue de vos droits. \n5. Elle pourra être amenée à évoluer en fonction du contexte légal et réglementaire applicable.",
     "data_principles": "2.  Les principes applicables aux données personnelles",
     "data_principles_text": "6.  La société Abalone s’attache au respect des principes suivants dans le cadre de la collecte et l’exploitation des données personnelles.",
     "data_usage": "2.1  Une utilisation légitime et proportionnée de vos données",
@@ -194,8 +180,6 @@
     "data_retention_periods": "3.5  Durées de conservation des données",
     "data_retention_periods_text": "24.  Respectueuse du droit à l’oubli, la société Abalone conserve les données à caractère personnel qu’elle collecte uniquement pendant la durée nécessaire aux finalités du traitement et en accord avec la législation applicable. \n25.  Les données collectées par la société Abalone seront, ainsi, conservées pour la durée nécessaire à l’accomplissement des finalités décrites ci-dessus, augmentée du délai de la prescription légale. \n26.  Plus précisément, nous organisons notre politique de conservation des données de la manière suivante: ",
 
-
-
     "purposes": "Finalités ",
     "retention_duration": "Durée de conservation",
     "prospects_management": "La gestion des prospects",
@@ -205,21 +189,19 @@
     "intermediate_archive": "Archive intermédiaire: ",
     "intermediate_archive_1_text": "•  5 ans",
     "prospects_data": "Données prospects: ",
-    
+
     "current_archive_text_2": "•  durée de gestion de la demande",
     "intermediate_archive_2_text": "3 ans à compter du dernier contact émanant du prospect",
-    
+
     "new_clients_management": "La gestion des nouveaux clients \nDurée de la relation contractuelle \nRendu aux clients de leurs pièces dès fin de mission (15 jours pour venir récupérer les boîtes à archives) \nLa gestion des informations sociales, en ce incluant la réalisation d’une veille sociale \nConservation tant que le client est en cours \nRendu aux clients de leurs pièces dès fin de mission (15 jours pour venir récupérer les boîtes à archives) \nLa gestion des fins de contrat \nArchives papier:  disponible au client sous 15 jours sinon destruction va être mise en place (jusqu’à maintenant ce n’était pas détruit) \nArchivage numérique:  dossier ancien client / durant 5 ans \nLa gestion des cookies du site https://www.abalone.nc/ \nDurée de la session \nlanguage \n•  15 jours \nsto-id-designer \n•  Durée de la session \nLa gestion de la facturation \n10 ans à compter du dernier exercice \nLa gestion des encaissements \nPour les encaissements clients: \n5 exercices en cours sont disponibles au sein de l’application; \nLe fichier TXT n’est conservé que pour la durée du transfert vers Sage Pour les encaissements fournisseurs: \nConservation de 10 ans (2011 plus vieux) \nLa gestion des journaux de paye \n10 ans à compter de l’émission du journal de paye \nLa gestion des anomalies",
-    "sanctions":"Sanctions disciplinaires",
-    "n/a":"•  N/A",
+    "sanctions": "Sanctions disciplinaires",
+    "n/a": "•  N/A",
     "2_months_sanction": "•  2 mois à compter de la sanction.",
     "legal_proceedings_documents": "Documents du contentieux ",
     "dispute_duration": "•  durée du contentieux.",
     "legal_requirements_duration": "durée des prescriptions légales (5 ans pour les actions portant sur l’exécution du contrat de travail).",
     "suppliers_management": "La gestion des relations avec les fournisseurs",
     "mail_management": "La gestion du courrier\n 5 ans pour destruction des boîtes d’archives \nLa gestion de l’accueil de nos clients, fournisseurs, partenaires et prestataires \nRegistre courrier arrivée:  3 ans \nMél pour information des appels:  hebdomadaire \nLa gestion de la comptabilité générale \n10 ans à compter du dernier exercice (pas plus vieux que 2012) \nLa gestion des réponses aux demandes officielles d’autorités publiques ou judiciaires habilitées à cet effet \nDurée à rattacher aux domaines concernés (cf gestion de la paie, Gestion de la comptabilité, voir si contentieux à la durée de conservation associées au traitement de gestion du contentieux dans le tableau de conservation du dossier spécifications fonctionnelles. \nLa gestion des demandes d’exercice de droits \nEn archive courante:  celle du traitement de la demande \nEn archive intermédiaire:  1 an pour les droits dont la violation est considérée comment une contravention (droit d’accès et de rectification) et de 6 ans pour ceux considérés comme un délit (droit d’opposition), conformément aux prescriptions des articles 9 et 8 du code de procédure pénale. \nLa gestion de l’accueil de nos visiteurs \nMél pour information des appels:  hebdomadaire \nL’établissement de tout moyen de preuve nécessaire à la défense de nos droits",
-
-
 
     "data_security": "3.6  Sécurité de vos données",
     "data_security_text": "27.  La société Abalone accorde une importance particulière à la sécurité de vos données personnelles. \n28.  Elle a mis en place des mesures techniques et organisationnelles adaptées au degré de sensibilité des données personnelles, en vue d’assurer l’intégrité et à la confidentialité les données et de les protéger contre toute intrusion malveillante, toute perte, altération ou divulgation à des tiers non autorisés.\n29.  La société Abalone effectue régulièrement des audits afin de vérifier la bonne application opérationnelle des règles relatives à la sécurité des données.\n30. Ainsi, elle s’engage à prendre les mesures de sécurité physiques, techniques et organisationnelles nécessaires pour: \n•  protéger ses activités; \n•  préserver la sécurité des données personnelles de ses prospects, adhérents, donateurs, partenaires, fournisseurs, prestataires et internautes,contre tout accès, modification, déformation, divulgation, destruction ou accès non autorisés des données personnelles qu’elle détient. \n31. Néanmoins, la sécurité et la confidentialité de vos données personnelles reposent sur les bonnes pratiques de chacun, ainsi vous êtes invité(e) à rester vigilant(e) sur la question. \n32. Conformément à ses engagements, la société Abalone choisit ses sous-traitants et prestataires avec soin et leur impose: \n•  un niveau de protection des données personnelles équivalent aux siens; \n•  une utilisation des données personnelles ou des informations uniquement pour assurer la gestion des services qu’ils doivent fournir; \n•  un respect strict de la législation et de la règlementation applicable en matière de confidentialité et de données personnelles; \n•  la mise en œuvre de toutes les mesures adéquates pour assurer la protection des données personnelles qu’ils peuvent être amenés à traiter; \n•  la définition des mesures techniques, organisationnelles nécessaires pour assurer la sécurité. \n33. La société Abalone conclut avec ses sous-traitants, conformément aux obligations légales, des contrats définissant précisément les conditions et modalités de traitement des données personnelles.",
@@ -236,5 +218,4 @@
     "withdrawal_of_consent_text": "41. Vous pouvez également retirer votre consentement à tout moment, pour les cas où celui-ci vous aurait été demandé (le retrait de votre consentement sera sans incidence sur la licéité du traitement réalisé avant le retrait du consentement).",
     "data_complaint": "4.5  L’introduction d’une réclamation",
     "data_complaint_text": "Si vous estimez, après nous avoir contactés, que vos droits sur vos données ne sont pas respectés, vous pouvez adresser une réclamation à la Commission nationale de l’informatique et des libertés."
-
 }

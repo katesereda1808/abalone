@@ -2,25 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
 
 body {
-   font-family: 'Open Sans', sans-serif;
-   color: #252525;
+    font-family: 'Open Sans', sans-serif;
+    color: #252525;
 }
+
 .hidden {
-   display: none;
+    display: none;
 }
 .no_opacity {
     opacity: 0;
 }
+
 .container {
     width: 100%;
     max-width: 1600px;
     min-width: 280px;
 }
+
 .background_filter {
     background-color: rgba(0, 0, 0, 0.49);
     height: 100%;
     width: 100%;
 }
+
 .link {
-    color: #00867F;
+    color: #00867f;
 }
